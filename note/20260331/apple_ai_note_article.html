@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Appleは「AIを作る競争」から降りた｜note記事</title>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;500;700&family=Noto+Sans+JP:wght@300;400;500&family=DM+Serif+Display:ital@0;1&family=Space+Mono&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --black: #0f0f0f;
+    --white: #fafaf8;
+    --gray-100: #f2f1ee;
+    --gray-300: #c8c6c0;
+    --gray-500: #8a8880;
+    --gray-700: #4a4845;
+    --accent: #c8502a;
+    --accent-light: #f5e8e3;
+    --blue: #1a4a7a;
+    --blue-light: #e8f0f8;
+    --green: #1a5c3a;
+    --green-light: #e8f5ee;
+    --gold: #9a7020;
+    --gold-light: #f8f0e0;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: var(--white);
+    color: var(--black);
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 300;
+    line-height: 1.9;
+    font-size: 16px;
+  }
+
+  /* ── Header / Cover ── */
+  .cover {
+    background: var(--black);
+    color: var(--white);
+    padding: 80px 40px 60px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .cover::before {
+    content: '';
+    position: absolute;
+    top: -60px; right: -60px;
+    width: 360px; height: 360px;
+    border-radius: 50%;
+    background: radial-gradient(circle, #c8502a22 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  .cover-label {
+    font-family: 'Space Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    color: var(--accent);
+    text-transform: uppercase;
+    margin-bottom: 24px;
+  }
+
+  .cover h1 {
+    font-family: 'DM Serif Display', serif;
+    font-size: clamp(32px, 5vw, 52px);
+    line-height: 1.2;
+    font-weight: 400;
+    max-width: 680px;
+    margin-bottom: 20px;
+  }
+
+  .cover h1 em {
+    font-style: italic;
+    color: var(--accent);
+  }
+
+  .cover-subtitle {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 15px;
+    color: var(--gray-300);
+    max-width: 540px;
+    line-height: 1.7;
+    margin-bottom: 36px;
+  }
+
+  .cover-meta {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-family: 'Space Mono', monospace;
+    font-size: 11px;
+    color: var(--gray-500);
+  }
+
+  .cover-meta span { color: var(--gray-300); }
+
+  /* ── Layout ── */
+  .container {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+
+  /* ── Sections ── */
+  section {
+    padding: 56px 0;
+    border-bottom: 1px solid var(--gray-100);
+  }
+
+  section:last-child { border-bottom: none; }
+
+  /* ── Lead ── */
+  .lead {
+    padding: 48px 0 40px;
+  }
+
+  .lead p {
+    font-family: 'Noto Serif JP', serif;
+    font-size: 18px;
+    line-height: 2.0;
+    color: var(--gray-700);
+    margin-bottom: 20px;
+  }
+
+  /* ── Section headings ── */
+  .section-num {
+    font-family: 'Space Mono', monospace;
+    font-size: 11px;
+    color: var(--accent);
+    letter-spacing: 0.15em;
+    margin-bottom: 8px;
+  }
+
+  h2 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 1.35;
+    margin-bottom: 24px;
+    color: var(--black);
+  }
+
+  h3 {
+    font-family: 'Noto Serif JP', serif;
+    font-size: 17px;
+    font-weight: 700;
+    margin: 32px 0 12px;
+    color: var(--black);
+  }
+
+  p {
+    margin-bottom: 18px;
+    color: var(--gray-700);
+  }
+
+  /* ── Pull quote ── */
+  .pullquote {
+    border-left: 3px solid var(--accent);
+    padding: 20px 28px;
+    margin: 36px 0;
+    background: var(--accent-light);
+    border-radius: 0 8px 8px 0;
+  }
+
+  .pullquote p {
+    font-family: 'Noto Serif JP', serif;
+    font-size: 17px;
+    line-height: 1.85;
+    color: var(--black);
+    margin: 0;
+    font-weight: 500;
+  }
+
+  /* ── Analogy box ── */
+  .analogy-box {
+    background: var(--black);
+    color: var(--white);
+    border-radius: 12px;
+    padding: 36px 32px;
+    margin: 36px 0;
+  }
+
+  .analogy-box .analogy-label {
+    font-family: 'Space Mono', monospace;
+    font-size: 10px;
+    letter-spacing: 0.2em;
+    color: var(--accent);
+    text-transform: uppercase;
+    margin-bottom: 16px;
+  }
+
+  .analogy-box h3 {
+    font-family: 'DM Serif Display', serif;
+    font-size: 22px;
+    font-weight: 400;
+    color: var(--white);
+    margin: 0 0 20px;
+  }
+
+  .analogy-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 16px;
+    margin-top: 20px;
+  }
+
+  .analogy-item {
+    background: rgba(255,255,255,0.07);
+    border-radius: 8px;
+    padding: 16px;
+    border: 1px solid rgba(255,255,255,0.1);
+  }
+
+  .analogy-item .role {
+    font-family: 'Space Mono', monospace;
+    font-size: 10px;
+    color: var(--accent);
+    letter-spacing: 0.1em;
+    margin-bottom: 8px;
+  }
+
+  .analogy-item .name {
+    font-size: 13px;
+    color: var(--white);
+    font-weight: 500;
+    line-height: 1.5;
+  }
+
+  /* ── Timeline cards ── */
+  .timeline {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    margin: 32px 0;
+    position: relative;
+  }
+
+  .timeline::before {
+    content: '';
+    position: absolute;
+    left: 20px;
+    top: 24px;
+    bottom: 24px;
+    width: 1px;
+    background: var(--gray-300);
+  }
+
+  .tl-item {
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+    padding: 20px 0;
+  }
+
+  .tl-dot-wrap {
+    flex-shrink: 0;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    padding-top: 4px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .tl-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--white);
+    border: 2px solid var(--accent);
+  }
+
+  .tl-dot.filled { background: var(--accent); }
+
+  .tl-content {
+    flex: 1;
+    background: var(--gray-100);
+    border-radius: 10px;
+    padding: 18px 20px;
+  }
+
+  .tl-phase {
+    font-family: 'Space Mono', monospace;
+    font-size: 10px;
+    color: var(--accent);
+    letter-spacing: 0.15em;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+  }
+
+  .tl-title {
+    font-family: 'Noto Serif JP', serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--black);
+    margin-bottom: 8px;
+  }
+
+  .tl-body {
+    font-size: 13px;
+    color: var(--gray-700);
+    line-height: 1.75;
+    margin: 0;
+  }
+
+  /* ── Comparison table ── */
+  .compare-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 28px 0;
+    font-size: 14px;
+  }
+
+  .compare-table th {
+    background: var(--black);
+    color: var(--white);
+    padding: 12px 16px;
+    text-align: left;
+    font-family: 'Space Mono', monospace;
+    font-size: 11px;
+    letter-spacing: 0.1em;
+    font-weight: 400;
+  }
+
+  .compare-table td {
+    padding: 12px 16px;
+    border-bottom: 1px solid var(--gray-100);
+    color: var(--gray-700);
+    line-height: 1.6;
+  }
+
+  .compare-table tr:nth-child(even) td { background: var(--gray-100); }
+
+  .compare-table td:first-child {
+    font-weight: 500;
+    color: var(--black);
+    width: 30%;
+  }
+
+  .tag {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-size: 11px;
+    font-family: 'Space Mono', monospace;
+  }
+
+  .tag-red { background: var(--accent-light); color: var(--accent); }
+  .tag-blue { background: var(--blue-light); color: var(--blue); }
+  .tag-green { background: var(--green-light); color: var(--green); }
+  .tag-gold { background: var(--gold-light); color: var(--gold); }
+
+  /* ── Key insight ── */
+  .insight-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin: 28px 0;
+  }
+
+  .insight-card {
+    border: 1px solid var(--gray-300);
+    border-radius: 10px;
+    padding: 20px;
+  }
+
+  .insight-card .ic-label {
+    font-family: 'Space Mono', monospace;
+    font-size: 10px;
+    color: var(--gray-500);
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+
+  .insight-card .ic-title {
+    font-family: 'Noto Serif JP', serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--black);
+    margin-bottom: 8px;
+    line-height: 1.5;
+  }
+
+  .insight-card .ic-body {
+    font-size: 13px;
+    color: var(--gray-700);
+    line-height: 1.75;
+    margin: 0;
+  }
+
+  /* ── Risk section ── */
+  .risk-item {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+    padding: 16px 0;
+    border-bottom: 1px solid var(--gray-100);
+  }
+
+  .risk-item:last-child { border-bottom: none; }
+
+  .risk-badge {
+    flex-shrink: 0;
+    font-family: 'Space Mono', monospace;
+    font-size: 11px;
+    padding: 4px 10px;
+    border-radius: 4px;
+    margin-top: 2px;
+  }
+
+  .risk-high { background: #fde8e8; color: #b02020; }
+  .risk-med  { background: var(--gold-light); color: var(--gold); }
+  .risk-low  { background: var(--blue-light); color: var(--blue); }
+
+  .risk-body { font-size: 14px; color: var(--gray-700); line-height: 1.75; }
+  .risk-body strong { color: var(--black); }
+
+  /* ── Footer / Closing ── */
+  .closing {
+    background: var(--black);
+    color: var(--white);
+    padding: 56px 40px;
+    text-align: center;
+  }
+
+  .closing p {
+    font-family: 'Noto Serif JP', serif;
+    font-size: 17px;
+    line-height: 2.0;
+    color: var(--gray-300);
+    max-width: 560px;
+    margin: 0 auto 24px;
+  }
+
+  .closing .closing-cta {
+    font-family: 'DM Serif Display', serif;
+    font-size: 26px;
+    color: var(--white);
+    font-style: italic;
+    margin-bottom: 32px;
+  }
+
+  .closing-meta {
+    font-family: 'Space Mono', monospace;
+    font-size: 10px;
+    color: var(--gray-500);
+    letter-spacing: 0.15em;
+  }
+
+  /* ── Source cite ── */
+  .sources {
+    padding: 32px 0;
+    border-top: 1px solid var(--gray-100);
+  }
+
+  .sources h4 {
+    font-family: 'Space Mono', monospace;
+    font-size: 11px;
+    color: var(--gray-500);
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin-bottom: 12px;
+  }
+
+  .sources ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .sources li {
+    font-size: 13px;
+    color: var(--gray-500);
+    padding: 4px 0;
+    padding-left: 16px;
+    position: relative;
+  }
+
+  .sources li::before {
+    content: '–';
+    position: absolute;
+    left: 0;
+    color: var(--gray-300);
+  }
+
+  @media (max-width: 600px) {
+    .analogy-row { grid-template-columns: 1fr; }
+    .insight-grid { grid-template-columns: 1fr; }
+    .cover { padding: 56px 24px 48px; }
+    h2 { font-size: 24px; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ── Cover ── -->
+<div class="cover">
+  <div class="container">
+    <div class="cover-label">Tech Analysis — 2026.03.31</div>
+    <h1>Appleは<br>「AIを作る競争」から<br><em>降りた</em></h1>
+    <p class="cover-subtitle">
+      AIモデル開発で出遅れたAppleが選んだのは、戦略の撤退ではなく土俵の替え。「AIのガソリンスタンド」として20億台のデバイスを武器に、業界の主導権を静かに握ろうとしている。
+    </p>
+    <div class="cover-meta">
+      <span>読了時間 約8分</span>
+      ·
+      <span>出典: Bloomberg / Mark Gurman</span>
+    </div>
+  </div>
+</div>
+
+<!-- ── Lead ── -->
+<div class="container">
+  <section class="lead">
+    <p>
+      2026年3月、Bloombergのテク記者Mark Gurmanが報じた一本のニュースレターが、静かに業界に波紋を広げている。Appleが「AIの戦い方」を根本から変えた、という内容だ。
+    </p>
+    <p>
+      その一言で言えば——Appleはもう、大規模言語モデルを作ることに本気を出していない。その代わり、「AIが使われる場所」を押さえることに全力を傾けようとしている。
+    </p>
+  </section>
+
+  <!-- ── Section 1 ── -->
+  <section>
+    <div class="section-num">01 — 背景</div>
+    <h2>ChatGPTに不意を突かれた会社の、静かな反撃</h2>
+
+    <p>
+      時計を少し戻そう。2022年末にChatGPTが世界を席巻したとき、Appleは準備ができていなかった。Google、Meta、OpenAIにAI人材を奪われ続け、社内のAI研究は競合と比べて明らかに見劣りする状況に陥っていた。
+    </p>
+
+    <div class="pullquote">
+      <p>「Appleはこれまでも、技術を最初に作ることより、最高の形で届けることに長けていた。今回もその本能が戦略を決めた」</p>
+    </div>
+
+    <p>
+      Gurman氏は報告書の中で、Appleが「AI軍拡競争を丸ごとスキップする戦略」を選んだと表現した。その核心は、AIのモデル開発に数兆円を投じるのではなく、既存のハードウェアとエコシステムをAI配信インフラとして活用することにある。
+    </p>
+
+    <p>
+      大規模言語モデルはコモディティ化する——これがAppleの内部的な読みだ。実際にGoogleからGeminiのライセンスを受けて新しいSiriを動かす計画が報じられており、自社での大規模モデル開発コストは見合わないと判断している。
+    </p>
+  </section>
+
+  <!-- ── Section 2 ── -->
+  <section>
+    <div class="section-num">02 — 戦略</div>
+    <h2>「ガソリンスタンド」になるとはどういうことか</h2>
+
+    <div class="analogy-box">
+      <div class="analogy-label">石油産業アナロジー</div>
+      <h3>AIの石油を掘る者と、給油所を持つ者</h3>
+      <div class="analogy-row">
+        <div class="analogy-item">
+          <div class="role">石油採掘企業</div>
+          <div class="name">OpenAI<br>Google DeepMind<br>Anthropic</div>
+        </div>
+        <div class="analogy-item">
+          <div class="role">精製・販売インフラ</div>
+          <div class="name">Apple<br>（20億台のデバイス<br>+App Store）</div>
+        </div>
+        <div class="analogy-item">
+          <div class="role">エンドユーザー</div>
+          <div class="name">iPhone・Mac・<br>Watchを使う<br>世界中の消費者</div>
+        </div>
+      </div>
+    </div>
+
+    <p>
+      石油がどれだけ良質でも、ガソリンスタンドがなければユーザーには届かない。Appleの戦略の本質はここにある。AIモデルを「コモディティなインプット」として扱い、「届ける仕組み」を握ることで収益を上げる。
+    </p>
+
+    <h3>具体的な施策：iOS 27「Siri Extensions」</h3>
+
+    <p>
+      最も具体的な動きが、iOS 27で導入予定の「Siri Extensions」プログラムだ。Siriを外部のAIアシスタントに開放し、ClaudeやGeminiのアプリをインストール済みのユーザーがSiri経由でこれらのチャットボットを使えるようになる。
+    </p>
+
+    <p>
+      App Storeには専用の「Extensions」セクションが設けられる計画で、設定アプリの内部プレリリース版にはすでにその文言が記されている。App Storeでアプリ市場を支配したときと同じ構図だ。
+    </p>
+
+    <h3>Siriの独立アプリ化とウェアラブル展開</h3>
+
+    <p>
+      SiriはiPhone・iPad・MacでテキストとAI音声の両モードで使えるスタンドアロンアプリとして生まれ変わる。過去の会話履歴へのアクセスも可能になり、インターフェースはiMessageに似たチャットバブル形式を採用する見込みだ。
+    </p>
+
+    <p>
+      さらにスマートグラス、ペンダント型デバイス、拡張AIカメラ付きAirPodsという3種類の新ウェアラブルの開発も加速。いずれもSiriを核に据えて視覚的コンテキストを活用する設計で、AIはハードウェアに深く統合されていく。
+    </p>
+  </section>
+
+  <!-- ── Section 3 ── -->
+  <section>
+    <div class="section-num">03 — 競合比較</div>
+    <h2>各社のAI戦略は、なぜ違うのか</h2>
+
+    <table class="compare-table">
+      <thead>
+        <tr>
+          <th>企業</th>
+          <th>戦略の核心</th>
+          <th>収益モデル</th>
+          <th>立ち位置</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Apple</td>
+          <td>配信インフラ（OS・HW）の支配</td>
+          <td>デバイス販売 + Extensionsエコシステム</td>
+          <td><span class="tag tag-gold">土俵替え</span></td>
+        </tr>
+        <tr>
+          <td>OpenAI</td>
+          <td>最高性能モデルの開発競争</td>
+          <td>API課金 + ChatGPT Pro</td>
+          <td><span class="tag tag-red">正面突破</span></td>
+        </tr>
+        <tr>
+          <td>Google</td>
+          <td>検索＋モデル＋デバイスの垂直統合</td>
+          <td>広告 + API + Pixel販売</td>
+          <td><span class="tag tag-blue">全方位</span></td>
+        </tr>
+        <tr>
+          <td>Microsoft</td>
+          <td>エンタープライズへのAI組み込み</td>
+          <td>Copilot課金 + Azure API</td>
+          <td><span class="tag tag-green">B2B特化</span></td>
+        </tr>
+        <tr>
+          <td>Meta</td>
+          <td>OSS公開によるエコシステム形成</td>
+          <td>広告プラットフォームの強化</td>
+          <td><span class="tag tag-blue">間接収益</span></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>
+      注目すべきは、Google・Microsoft・Amazon・Metaが2026年のAI設備投資に合計7000億ドルを見込む一方で、Appleはその設備投資を最小限に抑えている点だ。Morgan Stanleyのアナリストは「AppleはAI技術の主要ディストリビューターになる」と予測し、目標株価を315ドルに引き上げている。
+    </p>
+  </section>
+
+  <!-- ── Section 4 ── -->
+  <section>
+    <div class="section-num">04 — 波及効果</div>
+    <h2>これが広まると、業界の何が変わるか</h2>
+
+    <div class="timeline">
+      <div class="tl-item">
+        <div class="tl-dot-wrap"><div class="tl-dot filled"></div></div>
+        <div class="tl-content">
+          <div class="tl-phase">短期 — 2026〜2027</div>
+          <div class="tl-title">OpenAI独占の終焉とExtensions競争の始まり</div>
+          <p class="tl-body">
+            SiriとのChatGPT独占契約が失効し、Claude・Geminiと対等競争へ。App Storeに「AI Extensions」市場が誕生し、AIスタートアップにとって新たな参入窓口が開く。同時にA19チップ限定機能が旧機種ユーザーのアップグレード圧力を高め、ハードウェア買い替え需要を創出する。
+          </p>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot-wrap"><div class="tl-dot"></div></div>
+        <div class="tl-content">
+          <div class="tl-phase">中期 — 2027〜2029</div>
+          <div class="tl-title">プライバシー設計の業界標準化と規制リスクの顕在化</div>
+          <p class="tl-body">
+            「AI処理はオンデバイス優先」というAppleの旗印が業界の設計基準を底上げする。セキュリティはコストから「プレミアム価値」へ転換。一方でApp Store型30%課金をAIに適用する動きは、EU・米国の独禁当局との新たな摩擦を生む可能性がある。
+          </p>
+        </div>
+      </div>
+      <div class="tl-item">
+        <div class="tl-dot-wrap"><div class="tl-dot"></div></div>
+        <div class="tl-content">
+          <div class="tl-phase">長期 — 2029〜</div>
+          <div class="tl-title">「誰のAIか」より「何の上で動くAIか」の時代</div>
+          <p class="tl-body">
+            20億台のAppleデバイスがAI配信インフラになる。かつてWindowsがソフトウェア産業の流通を支配したように、Appleはコンシューマーデバイス上のAI流通を支配する。「最強のモデルを作った会社」より「届ける仕組みを持つ会社」が持続的な収益優位に立つ。
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="insight-grid">
+      <div class="insight-card">
+        <div class="ic-label">ビジネス視点</div>
+        <div class="ic-title">サービス収益が2030年代に年1兆円超へ</div>
+        <p class="ic-body">Morgan Stanleyは、Appleのサービス収益が2030年代には年1000億ドルに達する可能性を指摘。AI流通手数料が新たな収益柱になる。</p>
+      </div>
+      <div class="insight-card">
+        <div class="ic-label">投資視点</div>
+        <div class="ic-title">AI設備投資なしで恩恵を享受する稀有なモデル</div>
+        <p class="ic-body">競合が数兆円を設備投資に回す中、Appleはインフラを最小化しながらAIブームの上流を握る。資本効率の観点で際立ったポジションだ。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Section 5 ── -->
+  <section>
+    <div class="section-num">05 — リスク</div>
+    <h2>戦略の死角：3つの懸念点</h2>
+
+    <div>
+      <div class="risk-item">
+        <div class="risk-badge risk-high">HIGH</div>
+        <div class="risk-body">
+          <strong>独禁規制の深刻化</strong><br>
+          App Store問題よりもOSレベルの囲い込みは根が深い。EUはAppleに対してすでに厳しい姿勢を持っており、SiriがOSに統合された形でExtensionsを管理すれば、「競合AIの排除」として規制対象になるリスクがある。
+        </div>
+      </div>
+      <div class="risk-item">
+        <div class="risk-badge risk-med">MED</div>
+        <div class="risk-body">
+          <strong>AIモデルの品質格差が露呈するリスク</strong><br>
+          Geminiをライセンス受けて使う構造上、GoogleやAnthropicが独自チャネルでより優れた体験を提供し始めると、Siri経由の体験が「劣化版」として認識される可能性がある。
+        </div>
+      </div>
+      <div class="risk-item">
+        <div class="risk-badge risk-low">LOW</div>
+        <div class="risk-body">
+          <strong>開発者の反発</strong><br>
+          App Storeと同様に手数料モデルがAI Extensionsに適用されれば、開発者・AIラボからの反発が起きる可能性がある。ただしAppleのエコシステム規模を考えると参入を拒む企業は少ないと見られる。
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── Sources ── -->
+  <div class="sources">
+    <h4>参考情報</h4>
+    <ul>
+      <li>Bloomberg / Mark Gurman「Power On」ニュースレター（2026年3月29日）</li>
+      <li>TechStartups — Top Tech News Today, March 30, 2026</li>
+      <li>Morgan Stanley アナリストレポート（AAPL 目標株価 $315）</li>
+      <li>iOS 27内部プレリリース版 設定アプリ スクリーンショット（各社報道）</li>
+    </ul>
+  </div>
+</div>
+
+<!-- ── Closing ── -->
+<div class="closing">
+  <div class="container">
+    <p>
+      Appleはこれまでも、技術を最初に作ることより、最高の形で届けることに長けていた。音楽、アプリ、そしてAI——同じ脚本が、また繰り返されようとしている。
+    </p>
+    <div class="closing-cta">"The best AI is the one that reaches you."</div>
+    <div class="closing-meta">TECH ANALYSIS · 2026.03.31 · CLAUDE SONNET 4.6</div>
+  </div>
+</div>
+
+</body>
+</html>

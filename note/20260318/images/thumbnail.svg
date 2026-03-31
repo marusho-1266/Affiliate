@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" width="800" height="420">
+  <defs>
+    <style>
+      .title { font-family: 'Hiragino Sans', 'Yu Gothic UI', 'Meiryo', sans-serif; font-size: 48px; font-weight: bold; fill: #1a365d; }
+      .sub { font-family: 'Hiragino Sans', 'Yu Gothic UI', 'Meiryo', sans-serif; font-size: 24px; fill: #444; }
+    </style>
+  </defs>
+  <rect width="800" height="420" fill="#e8ecf0"/>
+  <text x="400" y="190" text-anchor="middle" class="title">ブランチの取得</text>
+  <text x="400" y="250" text-anchor="middle" class="sub">リモートブランチをローカルに反映</text>
+</svg>
