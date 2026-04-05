@@ -1,6 +1,9 @@
-# Threads 投稿文案（OpenAI / TBPN 買収）
+# Threads 投稿文案（昼）— OpenAI TBPN 買収
 
-関連ブリーフ: `reports/note-briefs/2026-04-05-openai-acquires-tbpn.md`
+関連ブリーフ: `reports/note-briefs/2026-04-05-openai-acquires-tbpn.md`  
+関連記事（下書き）: `note/20260405/2026-04-05-openai-tbpn買収｜公式と二次報道の切り分け.md`
+
+**夜分（note 公開告知）:** `threads/2026-04-05-openai-tbpn-acquisition-threads-evening.md`
 
 ---
 
