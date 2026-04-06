@@ -96,6 +96,40 @@
 
 ---
 
+## 調査 2026-04-05 16:00 （JST）
+
+公開情報の掲載時期はおおむね **2026年3月下旬〜4月5日**。チャット実行時点の速報ベース。Progress ShareFile・FortiClient EMS は **NVD / Fortinet PSIRT** で説明・深刻度を確認済み。
+
+### 新規トピック
+
+#### セキュリティ
+
+- **Progress ShareFile Storage Zones Controller に認証回避と RCE（CVE-2026-2699・CVE-2026-2701）** — 顧客管理型 SZC で、未認証の設定ページアクセスやファイルアップロード経由のコード実行につながる可能性。CNA は Progress、CVE-2026-2699 は CVSS 3.1 で 9.8（CRITICAL）。ベンダは Storage Zones Controller 5.x 向け修正・文書を参照。出典: [NVD](https://nvd.nist.gov/vuln/detail/CVE-2026-2699)（CVE-2026-2701 は同一製品ラインの連鎖として [NVD](https://nvd.nist.gov/vuln/detail/CVE-2026-2701) でも登録）
+- **FortiClient EMS の認証・認可バイパス（CVE-2026-35616）が実害型で悪用** — Fortinet が「悪用を確認」とし、7.4.5 / 7.4.6 向けホットフィックスと 7.4.7 への修正予定を案内。7.2 系は非該当。出典: [Fortinet PSIRT](https://fortiguard.fortinet.com/psirt/FG-IR-26-099)
+
+#### 金融IT・プライバシー
+
+- **英ロイズ銀行グループのシステム不具合で最大約44.8万人分のデータが露出** — 夜間更新のソフト欠陥が原因で、他顧客の取引・口座・国民保険番号などが見える事象。補償・当局対応・委員会への報告が Reuters で整理。出典: [Reuters](https://www.reuters.com/sustainability/boards-policy-regulation/nearly-half-million-customers-hit-by-lloyds-it-glitch-that-exposed-transaction-2026-03-27/)
+
+#### 半導体・製造
+
+- **Intel がアイルランド Fab 34 合弁の Apollo 持分 49% を約142億ドルで買い戻し** — 2024年の共同投資からの再取得で、現金と約65億ドル規模の新規債で資金調達。Fab 34 は Intel 4 / Intel 3 製品の拠点として位置づけ。出典: [Intel Newsroom](https://newsroom.intel.com/corporate/intel-repurchase-49-equity-interest-ireland-fab-joint-venture)
+
+#### AI・ガバナンス
+
+- **Microsoft が自律エージェント向け「Agent Governance Toolkit」をオープンソース公開** — ポリシーエンジン・ID/信頼スコア・ランタイム分離・コンプライアンス対応など7パッケージ、OWASP Agentic AI リスクへの対応を公式に説明。MIT ライセンス。出典: [Microsoft Open Source Blog](https://opensource.microsoft.com/blog/2026/04/02/introducing-the-agent-governance-toolkit-open-source-runtime-security-for-ai-agents/)
+
+#### AI・メディア
+
+- **OpenAI がテック業界トーク番組 TBPN を買収** — メディア会社としての初の買収と報じられ、番組はブランド維持・編集の独立性に言及。出典: [TechCrunch](https://techcrunch.com/2026/04/02/openai-acquires-tbpn-the-buzzy-founder-led-business-talk-show/)
+
+### メモ（任意）
+
+- **MAI モデル・Gemma 4・GPT-5.4** 等は過去ログの主出典と重複のため省略。
+- FortiClient の **CVE-2026-21643**（別CVE）は過去検索結果で言及あり。本件 **CVE-2026-35616** は Fortinet が 2026-04-04 に初版公開した別脆弱性。
+
+---
+
 ## 調査 2026-04-06 14:31 （JST）
 
 **調査日 D＝2026-04-06。** `news-recency-policy.md` により、新規トピックの主出典は **公開日が JST で 2026-04-05 または 2026-04-06** のものに限定。読者ペルソナは `target-persona-product-ai-pm.md`（事業側PM）— 各項目に **So what（PM）** を併記。
