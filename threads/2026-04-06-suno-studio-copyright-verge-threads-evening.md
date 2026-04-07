@@ -24,7 +24,7 @@
 質問（任意）：UGC や生成物を扱うプロダクトを見るとき、「規約の一文」と「実装のゲート位置」、どちらから先に確認しますか。
 
 一次ソースはこちら（The Verge）：
-https://www.theverge.com/ai-artificial-intelligence/906896/sunos-copyright-ai-music-covers
+[https://www.theverge.com/ai-artificial-intelligence/906896/sunos-copyright-ai-music-covers](https://www.theverge.com/ai-artificial-intelligence/906896/sunos-copyright-ai-music-covers)
 
 note のURLはこのスレにリプか、プロフィールから貼ります（※公開中の記事に差し替えてください）。
 
@@ -32,4 +32,4 @@ note のURLはこのスレにリプか、プロフィールから貼ります（
 
 ## 1本にまとめる場合（参考）
 
-夜のITメモ 🌙 本日、The Verge の Suno Studio 検証と著作権を PM 目線で整理した note を公開。Verge と ToS の役割分担、規約と検知工程のギャップ、訴訟と今回の論点の切り分けが焦点。一次: https://www.theverge.com/ai-artificial-intelligence/906896/sunos-copyright-ai-music-covers ／ noteは（URL挿入）
+夜のITメモ 🌙 本日、The Verge の Suno Studio 検証と著作権を PM 目線で整理した note を公開。Verge と ToS の役割分担、規約と検知工程のギャップ、訴訟と今回の論点の切り分けが焦点。一次: [https://www.theverge.com/ai-artificial-intelligence/906896/sunos-copyright-ai-music-covers](https://www.theverge.com/ai-artificial-intelligence/906896/sunos-copyright-ai-music-covers) ／ noteは（URL挿入）
