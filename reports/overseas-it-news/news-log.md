@@ -153,3 +153,40 @@
 - **2026-04-06 当日分**の主出典は、実行時点の検索では**日付確認できる公式プレスに到達せず**、本ブロックは **D−1（4/5）掲載の確実なソース**に限定。
 - Anthropic×OpenClaw の課金変更など **4/3 付の報道**は、鮮度ポリシーにより新規トピックから除外。
 
+---
+
+## 調査 2026-04-07 11:30 （JST）
+
+**調査日 D＝2026-04-07。** `news-recency-policy.md` により、新規トピックの主出典は **JST で 2026-04-06 または 2026-04-07** に公開（記載）されたもの。Tesla 調査終了・Broadcom は **Reuters 本文日付**、Axios 事件は **TechCrunch 掲載日**で確認。
+
+### 新規トピック
+
+#### 半導体・AIインフラ
+
+- **Broadcom が Google と次世代カスタムAIチップ等の長期供給で合意（2031年まで）** — Google の次世代AIラック向けに TPU 等を開発・供給。別途 Anthropic と約3.5GW規模のAI計算容量（Google のAIプロセッサ活用、2027年開始）の取引も発表、金額は非公表。出典: [Reuters](https://www.reuters.com/business/broadcom-signs-long-term-deal-develop-googles-custom-ai-chips-2026-04-06/)（掲載: 2026-04-06）
+- **Reuters Breakingviews：計画段階のデータセンター需要と資金調達ギャップ** — 計画中の約110GW規模の案件と、1GWあたりの建設コスト試算から総額が数兆ドル規模に膨らみうる一方、ハイパースケーラーのキャッシュフロー・社債・インフラ基金などを積み上げても「紙の上」では足りても、株主還元・集中リスク・送配電など周辺コストで計画の相当部分は実現しない（vaporware）可能性が高い、という**解説・意見**枠。出典: [Reuters Breakingviews](https://www.reuters.com/commentary/breakingviews/ai-dreams-crash-into-stark-7-trln-reality-2026-04-07)（掲載: 2026-04-07）
+
+#### モビリティ・規制
+
+- **NHTSA が Tesla「Actually Smart Summon」調査を終了** — 約260万台対象の調査で、主に低速・物損にとどまり死傷なしとし、追加措置は不要と判断。障害物検知やカメラ曇り等への OTA 更新で対応したと整理。FSD 系は別件で工程が進む文脈。出典: [Reuters](https://www.reuters.com/business/autos-transportation/us-auto-safety-regulator-closes-probe-into-teslas-driver-assistance-feature-2026-04-06/)（掲載: 2026-04-06）
+
+#### セキュリティ・OSS
+
+- **北朝鮮系とみられる攻撃が Axios メンテナーに長期のソーシャルエンジニアリングの後侵害** — 偽企業・Slack・偽ミーティング経由でマルウェア実行し、3/31 に悪意ある npm 公開（約3時間で取り下げ）。メンテナーが GitHub でポストモーテム公開。出典: [TechCrunch](https://techcrunch.com/2026/04/06/north-koreas-hijack-of-one-of-the-webs-most-used-open-source-projects-was-likely-weeks-in-the-making/)（掲載: 2026-04-06）
+
+#### プラットフォーム・法務
+
+- **Apple が Epic との App Store 手数料係争で再び最高裁審理を求める方針** — 外部決済への27%徴求が裁判所命令に反するとされた流れを受け、上告・差止めなどの動き。4/6 に控訴審が Apple の差止め動議を認めた旨を報道。出典: [TechCrunch](https://techcrunch.com/2026/04/06/apple-epic-games-lawsuit-supreme-court-appeal-app-store-commission/)（掲載: 2026-04-06）
+
+#### 生成AI・プロダクト
+
+- **Google が iOS向けオフライン優先の音声入力アプリ「Google AI Edge Eloquent」を公開** — Gemma ベースのASRを端末にダウンロード後、フィラー除去や文体変換など。クラウドモードでは Gemini による整形も可。出典: [TechCrunch](https://techcrunch.com/2026/04/06/google-quietly-releases-an-offline-first-ai-dictation-app-on-ios/)（掲載: 2026-04-06）
+
+#### メッセージング・エコシステム
+
+- **Samsung が「Samsung Messages」を2026年7月に終了し Google Messages への移行を案内（米国告知）** — RCS・Gemini 連携などを理由に挙げ、古いAndroidは対象外など条件を記載。出典: [ABC News (AP)](https://abcnews.go.com/Technology/wireStory/samsung-discontinuing-texting-app-tells-impacted-users-switch-131766567)（掲載: 2026-04-06）
+
+### メモ（任意）
+
+- **Tesla Summon** は Electrek 等でも同一事件だが、本ブロックは **Reuters** を主出典に統一。
+- Breakingviews 項目は**分析・コラム**であり投資判断材料としては一次の財務開示と区別して読む。
