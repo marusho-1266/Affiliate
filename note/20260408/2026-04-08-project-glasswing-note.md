@@ -1,4 +1,4 @@
-# Project Glasswing｜「公開しない最強AI」でサイバー防衛を組み直す試み
+# 「ITニュース」｜Project Glasswing｜「公開しない最強AI」でサイバー防衛を組み直す試み
 
 ## はじめに
 

@@ -3,7 +3,7 @@
 関連ブリーフ: `reports/note-briefs/2026-04-08-project-glasswing.md`  
 関連記事（note）: `note/20260408/2026-04-08-project-glasswing-note.md`
 
-夜分（note 公開告知）: 必要なら `threads/2026-04-08-project-glasswing-threads-evening.md` を別途作成
+夜分（note 公開告知）: `threads/2026-04-08-project-glasswing-threads-evening.md`
 
 ---
 
