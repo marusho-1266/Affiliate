@@ -190,3 +190,36 @@
 
 - **Tesla Summon** は Electrek 等でも同一事件だが、本ブロックは **Reuters** を主出典に統一。
 - Breakingviews 項目は**分析・コラム**であり投資判断材料としては一次の財務開示と区別して読む。
+
+---
+
+## 調査 2026-04-08 10:00 （JST）
+
+**調査日 D＝2026-04-08。** `news-recency-policy.md` により、新規トピックの主出典は **JST で 2026-04-07 または 2026-04-08** に公開（記載）されたもの。Project Glasswing は **Anthropic 公式（ニュース一覧で Apr 7）**、CISA 勧告は **Release Date: April 07, 2026**、Intel×Terafab は **TechCrunch 掲載日（PDT Apr 7）**、Moto 製品は **Motorola 公式ニュース**（同日メディアと整合）、Android XR は **Google 公式ブログ Apr 07, 2026** で確認。
+
+### 新規トピック
+
+#### セキュリティ・OT
+
+- **CISA、イラン系APTが米国重要インフラ向けRockwell/Allen-Bradley系PLC等を標的に悪用していると警告（AA26-097A）** — インターネット公開OT機器への攻撃、HMI/SCADA表示の改ざん、事業継続・金銭被害の事例を整理。PLCの直接公開回避、IOC照会、推奨緩和策を掲載。出典: [CISA](https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-097a)（Release Date: April 07, 2026）
+
+#### AI・サイバー防衛
+
+- **Anthropic が「Project Glasswing」— 主要クラウド・セキュリティ・金融・半導体企業等と重要ソフトの防衛利用で連携** — 未公開フロンティアモデル「Claude Mythos Preview」を防御的スキャン・脆弱性発見に使う枠組み。数千件規模の重大欠陥発見の実績を説明し、利用クレジット最大約1億ドル・OSS向け寄付400万ドルなどを公表。出典: [Anthropic](https://www.anthropic.com/glasswing)（発表日: 2026-04-07）
+
+#### 半導体・AIインフラ
+
+- **Intel が Musk 陣営の「Terafab」半導体プロジェクトに参画（米テキサス製造）** — SpaceX・Tesla との協業に加え、大規模設計・製造・パッケージで1TW/年規模の算力目標を後押しするとする報道。Intel は X 上の企業投稿を引用。詳細は限定的。出典: [TechCrunch](https://techcrunch.com/2026/04/07/intel-signs-on-to-elon-musks-terafab-chips-project/)（掲載: 2026-04-07）
+
+#### モバイル・ハードウェア
+
+- **Motorola が「moto g stylus（2026）」と米国キャリア向けタブレット「moto pad（2026）」を発表** — アクティブスタイラス（傾き・筆圧）、11インチ2.5Kタブレット・MediaTek D6300 5G、価格・発売時期（例: タブレット4/30 T-Mobile系）を公式に案内。出典: [Motorola News](https://motorolanews.com/introducing-moto-g-stylus-2026-and-moto-pad-2026-where-ideas-take-shape-across-screens/)
+
+#### XR・プラットフォーム
+
+- **Google が Android XR に5機能をロールアウト（Galaxy XR向け）** — 実験機能「auto-spatialization」で2Dアプリ・Web・画像・動画を3D体験化、壁へのピン留め、ホーム空間での実手表示、セッション再開、100本超のXR向けアプリなどを公式に説明。出典: [Google Keyword (blog)](https://blog.google/products-and-platforms/platforms/android/android-xr-immersive-features-update-april-2026/)（掲載: Apr 07, 2026）
+
+### メモ（任意）
+
+- **Docker Engine / Moby の AuthZ プラグイン回避（CVE-2026-34040）** はメディアで4/7付の解説が出ているが、**NVD の公開日は 2026-03-30** のため、鮮度ポリシーにより本回の「新規トピック」には含めず。必要なら [NVD](https://nvd.nist.gov/vuln/detail/CVE-2026-34040) および [GitHub Advisory](https://github.com/moby/moby/security/advisories/GHSA-x744-4wpc-v9h2) を参照。
+- **Anthropic の Google・Broadcom 向け計算拡大**は公式ニュースの日付が **2026-04-06** のため、D＝4/8 の **D−1 未満**として新規トピックから除外（過去ブロックの Broadcom 報道とも同一文脈）。
