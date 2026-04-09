@@ -2,7 +2,8 @@
 
 関連記事: `note/20260409/2026-04-09-claude-managed-agents｜ホスト型エージェントAPIと実務の読み方.md`（※公開後は「note 公開済み」と差し替え可）  
 関連ブリーフ: `reports/note-briefs/2026-04-09-claude-managed-agents.md`  
-昼分（調査メモ）: `threads/2026-04-09-claude-managed-agents-threads.md`
+昼分（調査メモ）: `threads/2026-04-09-claude-managed-agents-threads.md`  
+翌朝（前日 note の振り返り）: `threads/2026-04-10-claude-managed-agents-threads-morning.md`
 
 ---
 
