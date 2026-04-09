@@ -223,3 +223,28 @@
 
 - **Docker Engine / Moby の AuthZ プラグイン回避（CVE-2026-34040）** はメディアで4/7付の解説が出ているが、**NVD の公開日は 2026-03-30** のため、鮮度ポリシーにより本回の「新規トピック」には含めず。必要なら [NVD](https://nvd.nist.gov/vuln/detail/CVE-2026-34040) および [GitHub Advisory](https://github.com/moby/moby/security/advisories/GHSA-x744-4wpc-v9h2) を参照。
 - **Anthropic の Google・Broadcom 向け計算拡大**は公式ニュースの日付が **2026-04-06** のため、D＝4/8 の **D−1 未満**として新規トピックから除外（過去ブロックの Broadcom 報道とも同一文脈）。
+
+---
+
+## 調査 2026-04-09 12:00 （JST）
+
+**調査日 D＝2026-04-09。** `news-recency-policy.md` により、新規トピックの主出典は **JST で 2026-04-08 または 2026-04-09** に公開（記載）されたもの。**Shared AI License Foundation** は GlobeNewswire の **April 08, 2026**、**Gemini の notebooks** は Google 公式ブログ **Apr 08, 2026**、**Chrome Extended Stable** は Chrome Releases の **Wednesday, April 8, 2026** で確認。
+
+### 新規トピック
+
+#### 知的財産・AI産業
+
+- **「Shared AI License Foundation（SAIL）」創設 — 基盤モデル関連特許の非独占ライセンス共有** — Anthropic、Genentech（Roche）、IBM、Meta、Microsoft が創設理事、eBay・TD Bank Group がオブザーバー。Block・Figma がメンバー参加。会員間で基盤モデル特許を非独占ライセンスし開発を加速する「共有特許コモンズ」を掲げ、Gartner 予測の2026年AI支出規模なども言及。出典: [GlobeNewswire（Shared AI License Foundation）](https://www.globenewswire.com/news-release/2026/04/08/3270111/0/en/AI-Pioneers-Unite-to-Launch-the-Shared-AI-License-Foundation-to-Advance-Foundation-Model-Innovation.html)（掲載: 2026-04-08）
+
+#### 生成AI・プロダクト
+
+- **Google が Gemini に「notebooks」— NotebookLM と同期するプロジェクト用ナレッジ基盤** — チャットやファイルをトピックごとに整理し、Gemini アプリと NotebookLM でソースを共有。Ultra / Pro / Plus の Web から順次展開、モバイル・欧州・無料層への拡大予告。18未満・Workspace / Education は対象外と明記。出典: [Google Keyword (blog)](https://blog.google/innovation-and-ai/products/gemini-app/notebooks-gemini-notebooklm/)（掲載: Apr 08, 2026）
+
+#### セキュリティ・ブラウザ
+
+- **Google Chrome、Extended Stable チャネル向けデスクトップ更新（2026-04-08）** — 企業向け長期サポート系チャネルの定期更新として Chrome Releases に掲載。修正内容・バージョン番号は同リリースノートおよびリリース後のセキュリティアドバイザリで確認。出典: [Chrome Releases](https://chromereleases.googleblog.com/2026/04/extended-stable-updates-for-desktop.html)（掲載: Wednesday, April 8, 2026）
+
+### メモ（任意）
+
+- **Microsoft セキュリティブログの SOHO ルーター侵害（Forest Blizzard）**は URL 上 **2026/04/07** のため、本 D では **D−2 相当**として新規トピックに含めず。必要なら [Microsoft Security Blog](https://www.microsoft.com/en-us/security/blog/2026/04/07/soho-router-compromise-leads-to-dns-hijacking-and-adversary-in-the-middle-attacks/) を参照。
+- **Project Glasswing / Mythos** の二次報道のみ、**Apple Arcade（Nick Jr.）** などニュースルーム本文で**暦日がページ冒頭で取れない**ソースは、鮮度・重複の観点から本回は新規トピック見送り。
