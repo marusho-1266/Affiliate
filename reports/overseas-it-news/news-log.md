@@ -248,3 +248,32 @@
 
 - **Microsoft セキュリティブログの SOHO ルーター侵害（Forest Blizzard）**は URL 上 **2026/04/07** のため、本 D では **D−2 相当**として新規トピックに含めず。必要なら [Microsoft Security Blog](https://www.microsoft.com/en-us/security/blog/2026/04/07/soho-router-compromise-leads-to-dns-hijacking-and-adversary-in-the-middle-attacks/) を参照。
 - **Project Glasswing / Mythos** の二次報道のみ、**Apple Arcade（Nick Jr.）** などニュースルーム本文で**暦日がページ冒頭で取れない**ソースは、鮮度・重複の観点から本回は新規トピック見送り。
+
+---
+
+## 調査 2026-04-10 15:00 （JST）
+
+**調査日 D＝2026-04-10。** `news-recency-policy.md` により、新規トピックの主出典は **JST で 2026-04-09 または 2026-04-10** に公開（記載）されたもの。**Mercor** は TechCrunch 記事で **April 9, 2026**（PDT）、**OpenAI 英国DC** は Reuters で **April 9 (Reuters)**、**生数科技** は Reuters で **April 10 (Reuters)**、**米財務省・FRBと銀行CEO** は Reuters 記事本文 **April 9 (Reuters)**（URL スラッグは 2026-04-10）で確認。
+
+### 新規トピック
+
+#### AI・データ・サプライチェーン
+
+- **Mercor（評価額約100億ドル規模のAIデータ訓練）— 侵害後の顧客・パートナー動向が報じられる** — 3/31 の侵害公表後、ハッカー側が4TB規模の窃取を主張していること、オープンソース LiteLLM 経由の資格情報窃取が起点だったことの整理。Meta が契約を無期限停止（Wired 経由で報道）、委託者5名が個人情報流出を理由に提訴（Business Insider 経由）、OpenAI は影響調査中で当時は契約継続と報じられる、など。出典: [TechCrunch](https://techcrunch.com/2026/04/09/after-data-breach-10b-valued-startup-mercor-is-having-a-month/)（掲載: April 9, 2026）
+
+#### AI・インフラ・政策
+
+- **OpenAI が英国のメインデータセンター計画を一時停止** — 規制環境とエネルギーコストを理由に、条件が長期投資に適したものになるまで見送ると説明。Stargate UK（Nvidia・Nscale との協業）は継続検討とし、英国政府は OpenAI 等との連携を続ける旨をコメント。出典: [Reuters](https://www.reuters.com/business/openai-pauses-uk-data-centre-project-over-regulation-costs-2026-04-09/)（April 9, 2026）
+
+#### AI・資金調達（中国）
+
+- **生数科技（ShengShu）が約2億9300万ドル規模の資金調達** — アリババクラウドが主導し、「物理環境でのAGI」に向けた感覚情報を扱う「汎用世界モデル」開発に投じると発表。Vidu 動画生成やロボット向けオープンソース Motus などの文脈で競合関係を説明。出典: [Reuters](https://www.reuters.com/world/asia-pacific/chinese-startup-shengshu-raises-293-million-advance-artificial-general-2026-04-10/)（April 10, 2026）
+
+#### AI・金融規制・サイバーリスク
+
+- **米財務長官・FRB議長が銀行CEOらと会合 — Anthropic「Mythos」モデルのサイバーリスクを警告** — 関係者話として、火曜の財務省主催会合で主要行CEOにリスク認識と防御策を促したと報道。Mythos は広範リリースを抑え、政府・業界への事前説明を続けている旨が本文で整理。初報は Bloomberg。出典: [Reuters](https://www.reuters.com/business/finance/bessent-powell-warn-bank-ceos-about-anthropic-model-risks-bloomberg-news-reports-2026-04-10/)（April 9, 2026）
+
+### メモ（任意）
+
+- **Fortinet FortiClient EMS（CVE-2026-35616 等）** は既に `seen-urls.json` の [Fortinet PSIRT FG-IR-26-099](https://fortiguard.fortinet.com/psirt/FG-IR-26-099) で同一事件扱いのため、本回は URL 追加なし。
+- **Anthropic Mythos の公開範囲**についての分析記事（例: TechCrunch 4/9）は、上記 Reuters と**同一テーマ**のため主出典は Reuters に集約。

@@ -10,15 +10,12 @@
   - `overseas-it-news`：広く調査し `news-log.md` と `seen-urls.json` に追記。`news-recency-policy.md` で鮮度を統一。  
   - `overseas-it-news-brief`：最大5件の短文サマリを `news-brief-log.md` に。`seen-urls.json` は共有。  
   - 読者軸の参照：`target-persona-product-ai-pm.md`。
-
 - **深掘り（執筆前ブリーフ）**  
   - `overseas-it-news-deep-dive`＋スキル `note-deep-dive-report`：背景／目的／効果、参照一覧など。  
   - 既定保存先：`reports/note-briefs/YYYY-MM-DD-<slug>.md`。
-
 - **note 記事**  
   - 原稿：`note/YYYYMMDD/*.md`。  
   - 型：`note/速報noteテンプレ.md`。
-
 - **派生（任意）**  
   - ラジオ台本 `radio-script-from-note`、Threads `threads-marusho-posts`、`/note-thumbnail` など。
 
