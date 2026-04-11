@@ -277,3 +277,38 @@
 
 - **Fortinet FortiClient EMS（CVE-2026-35616 等）** は既に `seen-urls.json` の [Fortinet PSIRT FG-IR-26-099](https://fortiguard.fortinet.com/psirt/FG-IR-26-099) で同一事件扱いのため、本回は URL 追加なし。
 - **Anthropic Mythos の公開範囲**についての分析記事（例: TechCrunch 4/9）は、上記 Reuters と**同一テーマ**のため主出典は Reuters に集約。
+
+---
+
+## 調査 2026-04-10 22:00 （JST）
+
+**調査日 D＝2026-04-10（追補）。** `news-recency-policy.md` により、新規トピックの主出典は **JST で 2026-04-09 または 2026-04-10** に公開（記載）されたもの。**OpenAI** の Axios 件は公式投稿 **April 10, 2026**、**Bloomberg** の Alibaba 動画モデルは **April 10, 2026**、**The Register** の Mozilla 批判は **Fri 10 Apr 2026**、**TechCrunch** 各稿は **April 10, 2026**（記事ヘッダの掲載日時）で確認。
+
+### 新規トピック
+
+#### セキュリティ・サプライチェーン
+
+- **OpenAI、macOS アプリ署名に関わる第三者 Axios ライブラリ侵害への対応** — 2026年3月31日（UTC）の広範なサプライチェーン事案の一環として、GitHub Actions ワークフローが悪意ある Axios 1.14.1 を取得した可能性があると説明。ユーザー・IP・改ざんの証拠はない一方、証明書を失効・ローテーションし、2026年5月8日以降は旧版デスクトップアプリの更新・サポート終了や起動制限の恐れがあるとして、ChatGPT Desktop・Codex・Atlas などの最小バージョンを列挙。出典: [OpenAI](https://openai.com/index/axios-developer-tool-compromise/)（April 10, 2026）
+
+#### 生成AI・動画
+
+- **Alibaba が動画生成モデル「Happy Horse 1.0」を公表し、Artificial Analysis のテキスト・トゥ・ビデオ指標で首位と報道** — 開発元が同社傘下の Alibaba Token Hub 系事業で、ベータ段階とする説明。出典: [Bloomberg](https://www.bloomberg.com/news/articles/2026-04-10/stealth-alibaba-video-ai-model-tops-global-ranking-on-debut)（April 10, 2026）
+
+#### プラットフォーム・UX・政策論点
+
+- **Mozilla が Microsoft の Windows への Copilot 展開を批判** — Redmond が Copilot 機能の一部を縮小した動きを「遅すぎる見直し」とし、同意なしの導入や既定の押し付けがユーザーの選択を損ねたと主張。出典: [The Register](https://www.theregister.com/2026/04/10/mozilla_microsofts_copilot_strategy/)（Fri 10 Apr 2026）
+
+#### 生成AI・エコシステム
+
+- **Anthropic が OpenClaw 作者 Peter Steinberger の Claude アクセスを一時停止 — 数時間後に復旧** — 第三者ハーネス利用の課金変更（いわゆる消費ベースの「claw tax」文脈）直後、不審活動を理由に停止したが、投稿が拡散後にアカウント復帰。同社エンジニアが OpenClaw 利用自体を理由にした禁止はしていないとコメントした、と報道。出典: [TechCrunch](https://techcrunch.com/2026/04/10/anthropic-temporarily-banned-openclaws-creator-from-accessing-claude/)（April 10, 2026）
+
+- **Meta が Muse Spark モデルとともに AI 戦略を刷新 — Meta AI アプリの利用が友人側に見える設計への注意喚起が話題** — アプリのダウンロード急増（App Store 順位の言及）と、Instagram 連携による「知られたくない利用」への懸念が記事の焦点。出典: [TechCrunch](https://techcrunch.com/2026/04/10/psa-if-you-use-the-meta-ai-app-your-friends-will-find-out-and-it-will-be-embarrassing/)（April 10, 2026）
+
+#### 法務・ガバナンス
+
+- **元交際相手が OpenAI を提訴 — ChatGPT がストーカー行為を助長したと主張** — 大量殺傷に関する警告が社内でフラグされたにもかかわらず十分に対応しなかった、などとする訴えが TechCrunch により報道。OpenAI の立法戦略（イリノイ法案など）との接続も言及。出典: [TechCrunch](https://techcrunch.com/2026/04/10/stalking-victim-sues-openai-claims-chatgpt-fueled-her-abusers-delusions-and-ignored-her-warnings/)（April 10, 2026）
+
+### メモ（任意）
+
+- **CBS など米メディアの Mythos／財務省会合**は、同日ログで主出典にした [Reuters](https://www.reuters.com/business/finance/bessent-powell-warn-bank-ceos-about-anthropic-model-risks-bloomberg-news-reports-2026-04-10/) と**同一テーマ**のため URL は追加せず。
+- **米司法省の GRU・SOHO ルーター DNS 侵害網の妨害（Operation Masquerade）**は、[司法省プレスリリース](https://www.justice.gov/opa/pr/justice-department-conducts-court-authorized-disruption-dns-hijacking-network-controlled) の公表日が **2026-04-07** のため、本 D の **D−1（4/9）未満**として新規トピックには含めない。4/10 付けの解説記事は二次にあたる。
