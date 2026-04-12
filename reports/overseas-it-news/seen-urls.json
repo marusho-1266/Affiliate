@@ -2,6 +2,7 @@
   "urls": [
     "https://abcnews.go.com/Technology/wireStory/samsung-discontinuing-texting-app-tells-impacted-users-switch-131766567",
     "https://apnews.com/article/ai-stargate-microsoft-openai-crusoe-oracle-f4f74c3a4617d8cfab5b933fc31ccc6e",
+    "https://arstechnica.com/space/2026/04/four-astronauts-are-back-home-after-a-daring-ride-around-the-moon",
     "https://blog.google/innovation-and-ai/products/gemini-app/notebooks-gemini-notebooklm",
     "https://blog.google/innovation-and-ai/technology/developers-tools/gemma-4",
     "https://blog.google/products-and-platforms/platforms/android/android-xr-immersive-features-update-april-2026",
@@ -19,6 +20,7 @@
     "https://openai.com/index/axios-developer-tool-compromise",
     "https://openai.com/index/introducing-gpt-5-4",
     "https://opensource.microsoft.com/blog/2026/04/02/introducing-the-agent-governance-toolkit-open-source-runtime-security-for-ai-agents",
+    "https://roboticsandautomationnews.com/2026/04/11/generalist-ai-unveils-gen-1-model-claiming-breakthrough-in-real-world-robotic-task-performance/100516",
     "https://techcrunch.com/2026/04/02/google-now-lets-you-direct-avatars-through-prompts-in-its-vids-app",
     "https://techcrunch.com/2026/04/02/ice-says-it-bought-paragons-spyware-to-use-in-drug-trafficking-cases",
     "https://techcrunch.com/2026/04/02/openai-acquires-tbpn-the-buzzy-founder-led-business-talk-show",
@@ -30,9 +32,11 @@
     "https://techcrunch.com/2026/04/10/anthropic-temporarily-banned-openclaws-creator-from-accessing-claude",
     "https://techcrunch.com/2026/04/10/psa-if-you-use-the-meta-ai-app-your-friends-will-find-out-and-it-will-be-embarrassing",
     "https://techcrunch.com/2026/04/10/stalking-victim-sues-openai-claims-chatgpt-fueled-her-abusers-delusions-and-ignored-her-warnings",
+    "https://techcrunch.com/2026/04/11/sam-altman-responds-to-incendiary-new-yorker-article-after-attack-on-his-home",
     "https://www.anthropic.com/glasswing",
     "https://www.axios.com/2026/03/31/microsoft-critique-anthropic-openai",
     "https://www.bleepingcomputer.com/news/security/critical-citrix-netscaler-memory-flaw-actively-exploited-in-attacks",
+    "https://www.bleepingcomputer.com/news/security/police-identifies-20-000-victims-in-international-crypto-fraud-crackdown",
     "https://www.bloomberg.com/news/articles/2026-04-10/stealth-alibaba-video-ai-model-tops-global-ranking-on-debut",
     "https://www.cisa.gov/news-events/alerts/2026/03/26/cisa-adds-one-known-exploited-vulnerability-catalog",
     "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-097a",
@@ -48,9 +52,11 @@
     "https://www.reuters.com/commentary/breakingviews/ai-dreams-crash-into-stark-7-trln-reality-2026-04-07",
     "https://www.reuters.com/sustainability/boards-policy-regulation/nearly-half-million-customers-hit-by-lloyds-it-glitch-that-exposed-transaction-2026-03-27",
     "https://www.reuters.com/world/asia-pacific/chinese-startup-shengshu-raises-293-million-advance-artificial-general-2026-04-10",
+    "https://www.reuters.com/world/asia-pacific/japan-approves-additional-4-bln-chipmaker-rapidus-2026-04-11",
     "https://www.theregister.com/2026/04/10/mozilla_microsofts_copilot_strategy",
     "https://www.theverge.com/ai-artificial-intelligence/906896/sunos-copyright-ai-music-covers",
     "https://www.theverge.com/podcast/907146/amazon-echo-alexa-version-history",
+    "https://www.theverge.com/policy/910714/dhs-is-trying-to-force-reddit-to-expose-a-user-who-said-mean-things-about-ice",
     "https://www.theverge.com/tech/907015/gemini-google-maps-hands-on"
   ]
 }

@@ -312,3 +312,39 @@
 
 - **CBS など米メディアの Mythos／財務省会合**は、同日ログで主出典にした [Reuters](https://www.reuters.com/business/finance/bessent-powell-warn-bank-ceos-about-anthropic-model-risks-bloomberg-news-reports-2026-04-10/) と**同一テーマ**のため URL は追加せず。
 - **米司法省の GRU・SOHO ルーター DNS 侵害網の妨害（Operation Masquerade）**は、[司法省プレスリリース](https://www.justice.gov/opa/pr/justice-department-conducts-court-authorized-disruption-dns-hijacking-network-controlled) の公表日が **2026-04-07** のため、本 D の **D−1（4/9）未満**として新規トピックには含めない。4/10 付けの解説記事は二次にあたる。
+
+---
+
+## 調査 2026-04-12 14:00 （JST）
+
+**調査日 D＝2026-04-12。** `news-recency-policy.md` により、新規トピックの主出典は **JST 暦日で 2026-04-11 または 2026-04-12** に公開（記載）されたもの。**日本・Rapidus** は Reuters 記事で **April 11 (Reuters)**、**Sam Altman** は TechCrunch で **April 11, 2026**、**Operation Atlantic** は BleepingComputer で **April 11, 2026**、**Reddit／大陪審** は The Verge で **Apr 11, 2026**、**Artemis II** は Ars Technica で **2026-04-11**、**Generalist AI GEN-1** は Robotics & Automation News で **2026/04/11** と確認。
+
+### 新規トピック
+
+#### 半導体・産業政策
+
+- **日本政府が Rapidus に追加で約 6320 億円（約 40 億ドル）の支援を承認** — 先端ロジック半導体の研究開発加速が目的。累計の政府系 R&D 支援は約 2.35 兆円規模に。NEDO が富士通・IBM 日本法人の設計関連プロジェクトも支援すると報道。Rapidus は 2nm 世代の量産を 2027 会計年度開始を目標とする説明。出典: [Reuters](https://www.reuters.com/world/asia-pacific/japan-approves-additional-4-bln-chipmaker-rapidus-2026-04-11/)
+
+#### AI・企業・ガバナンス
+
+- **OpenAI CEO が『New Yorker』の長文プロフィールと自宅への火炎瓶投擲疑惑を受けブログで応答** — 金曜早朝の事案で負傷者なし、容疑者は後に本社で逮捕されたとする SFPD の説明を引用する報道。記事は対立回避の傾向や 2023 年の取締役会騒動への言及などを要約。出典: [TechCrunch](https://techcrunch.com/2026/04/11/sam-altman-responds-to-incendiary-new-yorker-article-after-attack-on-his-home/)
+
+- **Generalist AI がロボット向け「GEN-1」モデルを発表 — 特定タスクで高成功率を主張** — 身体性基盤モデルとして、実世界データでの事前学習や適応に関する説明。同社の主張として成功率・速度の改善を報じ、限界も認める旨が記事に記載。出典: [Robotics & Automation News](https://roboticsandautomationnews.com/2026/04/11/generalist-ai-unveils-gen-1-model-claiming-breakthrough-in-real-world-robotic-task-performance/100516/)
+
+#### セキュリティ・法執行
+
+- **英 NCA 主導の「Operation Atlantic」— 暗号資産「承認フィッシング」等で 2 万人超の被害者を特定** — 米シークレットサービス・カナダ当局などと連携した国際捜査。約 1200 万ドル相当の凍結・約 4500 万ドル相当の不正取得コインの追跡などが報道。出典: [BleepingComputer](https://www.bleepingcomputer.com/news/security/police-identifies-20-000-victims-in-international-crypto-fraud-crackdown/)
+
+#### プラットフォーム・法政策
+
+- **DHS／ICE が Reddit 利用者の身元開示を求め大陪審召喚状に至ったと報道** — カリフォルニアでの召喚取下げ後、DC の大陪審向けに当局が再び情報取得を試みたという流れを The Intercept 等を引用して整理。Reddit は声明で「政府批判や抗議を行う利用者」への任意開示はしない旨を伝えたと報道。出典: [The Verge](https://www.theverge.com/policy/910714/dhs-is-trying-to-force-reddit-to-expose-a-user-who-said-mean-things-about-ice)
+
+#### 宇宙・エンジニアリング
+
+- **NASA Artemis II が太平洋にスプラッシュダウン — 月周回有人飛行が約半世紀ぶりに完了** — Orion の再突入・減速・回収までを速報。有人深宇宙飛行の工程・リスクの文脈で報道。出典: [Ars Technica](https://arstechnica.com/space/2026/04/four-astronauts-are-back-home-after-a-daring-ride-around-the-moon/)
+
+### メモ（任意）
+
+- **OpenAI・第三者 Axios／macOS 署名**は、[OpenAI 公式投稿](https://openai.com/index/axios-developer-tool-compromise) および [Reuters 4/11](https://www.reuters.com/business/openai-identifies-security-issue-involving-third-party-tool-says-user-data-was-2026-04-11/) が同一事件のため、主出典は既出 URL に集約（本回 `seen-urls.json` には追加せず）。
+- **Anthropic Project Glasswing／Mythos** のフォロー報道（NPR・CS Monitor 等、4/11）は [Anthropic Glasswing](https://www.anthropic.com/glasswing) と同一テーマのため URL 追加なし。
+- **Gmail エンタープライズ向け E2EE のモバイル展開**（BleepingComputer 掲載 **2026-04-10**）は **D−1（4/11）未満**のため新規トピックから除外。
