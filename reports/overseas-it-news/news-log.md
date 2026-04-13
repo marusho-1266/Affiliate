@@ -348,3 +348,27 @@
 - **OpenAI・第三者 Axios／macOS 署名**は、[OpenAI 公式投稿](https://openai.com/index/axios-developer-tool-compromise) および [Reuters 4/11](https://www.reuters.com/business/openai-identifies-security-issue-involving-third-party-tool-says-user-data-was-2026-04-11/) が同一事件のため、主出典は既出 URL に集約（本回 `seen-urls.json` には追加せず）。
 - **Anthropic Project Glasswing／Mythos** のフォロー報道（NPR・CS Monitor 等、4/11）は [Anthropic Glasswing](https://www.anthropic.com/glasswing) と同一テーマのため URL 追加なし。
 - **Gmail エンタープライズ向け E2EE のモバイル展開**（BleepingComputer 掲載 **2026-04-10**）は **D−1（4/11）未満**のため新規トピックから除外。
+
+---
+
+## 調査 2026-04-13 12:00 （JST）
+
+**調査日 D＝2026-04-13。** `news-recency-policy.md` により、新規トピックの主出典は **JST で 2026-04-12 または 2026-04-13** に公開（記載）されたもの、または **公式ページの Last updated が該当暦日**のもの。**Adobe APSB26-43** は本文で **Date Published: April 11, 2026** だが **Last updated on Apr 12, 2026** かつ **Revisions: April 12, 2026**（CVSS 改訂）で確認。**Samsung Shallow-π** は Seoul Economic Daily 英語版 URL 上 **2026/04/12**。**X のクリエイター支払い**は TechCrunch ヘッダ **April 12, 2026** で確認。
+
+### 新規トピック
+
+#### セキュリティ・ソフトウェア
+
+- **Adobe、Acrobat／Reader の緊急セキュリティ更新（APSB26-43）— CVE-2026-34621 を悪用中と公表** — プロトタイプ汚染経由の任意コード実行（Critical、CVSS 3.1 ベース 8.6）。4月12日付で攻撃ベクトル等の改訂あり。該当バージョンへの更新を推奨。出典: [Adobe Security Bulletin](https://helpx.adobe.com/security/products/acrobat/apsb26-43.html)（Date Published: April 11, 2026／Last updated: Apr 12, 2026）
+
+#### ロボティクス・AI
+
+- **Samsung Research が人形ロボ向け制御技術「Shallow-π」を発表したと報道** — 知識蒸留で推論ステップを約3分の1に圧縮、判断速度を 8Hz から 17.2Hz へ、オンデバイス VLA で Jetson 系上の検証や精密タスク成功率の言及など。製造現場向けの物理AI・2030年工場ロードマップの文脈。出典: [Seoul Economic Daily (English)](https://en.sedaily.com/finance/2026/04/12/samsung-secures-humanoid-robot-brain-tech-17-decisions-per)（掲載: 2026-04-12）
+
+#### プラットフォーム・クリエイターエコノミー
+
+- **X がクリックベイト・高速ニュースアグリゲーター等へのクリエイター支払いを削減** — プロダクト責任者が投稿で、集約アカウントのペイアウトを当サイクル 60% にし次サイクルでさらに 20% 減、常習的な「BREAKING」煽り投稿への減額も、と説明。タイムライン洪水が創作者を押しのけたとする主張。出典: [TechCrunch](https://techcrunch.com/2026/04/12/x-says-its-reducing-payments-to-clickbait-accounts/)（掲載: April 12, 2026）
+
+### メモ（任意）
+
+- **Reuters に掲載の Century Huatong「Digiloong Cup」プレスリリース**は **Sponsored content／EZ Newswire** で編集独立性が低いため、新規トピックには含めず。必要なら [Reuters（プレスリリース）](https://www.reuters.com/press-releases/century-huatong-2nd-digiloong-cup-ai-innovation-competition-2026-04-12/)（April 12, 2026 表記）を参照。
