@@ -13,10 +13,6 @@
 
 - 前提として読むと分かりやすい稿: [「ITニュース」｜Project Glasswing｜「公開しない最強AI」でサイバー防衛を組み直す試み](../20260408/2026-04-08-project-glasswing-note.md)（2026-04-07 公表の整理）
 
-※本稿は Reuters・Anthropic 公式ページ等の公開情報にもとづき、筆者の整理を加えています。**投資助言、法務・政府手続の代行、Anthropic・国防総省・裁判所への取材は行っていません。** 訴訟の最終結論や協議の内実は、**法廷記録・当局の一次文書**で追う必要があります。
-
----
-
 ## 1. Reuters（4/13）が伝えていること
 
 **[Anthropic talking to the Trump administration about its next AI model, co-founder says](https://www.reuters.com/world/anthropic-talking-trump-administration-about-its-next-ai-model-co-founder-says-2026-04-13/)**（WASHINGTON, April 13, 2026）の範囲で、少なくとも次が報じられています。
@@ -150,3 +146,6 @@ Anthropic の **[Project Glasswing](https://www.anthropic.com/glasswing)**（202
 - 2026-04-14: 補助資料へのリンクを **はじめにから文末「補助資料」節へ移動**
 - 2026-04-14: §6 先頭箇条書きを **Glasswing 別 note 前提にしない**自給説明に書き換え
 
+---
+
+※本稿は Reuters・Anthropic 公式ページ等の公開情報にもとづき、筆者の整理を加えています。**投資助言、法務・政府手続の代行、Anthropic・国防総省・裁判所への取材は行っていません。** 訴訟の最終結論や協議の内実は、**法廷記録・当局の一次文書**で追う必要があります。
