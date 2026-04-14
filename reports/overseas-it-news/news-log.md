@@ -372,3 +372,33 @@
 ### メモ（任意）
 
 - **Reuters に掲載の Century Huatong「Digiloong Cup」プレスリリース**は **Sponsored content／EZ Newswire** で編集独立性が低いため、新規トピックには含めず。必要なら [Reuters（プレスリリース）](https://www.reuters.com/press-releases/century-huatong-2nd-digiloong-cup-ai-innovation-competition-2026-04-12/)（April 12, 2026 表記）を参照。
+
+---
+
+## 調査 2026-04-14 12:00 （JST）
+
+**調査日 D＝2026-04-14。** `news-recency-policy.md` により、新規トピックの主出典は **JST で 2026-04-13 または 2026-04-14** に公開（記載）されたもの。以下はいずれも **2026-04-13（記事見出し・電文日付）** で確認。
+
+### 新規トピック
+
+#### セキュリティ
+
+- **Anodot 侵害 — 複数顧客データ窃取と身代金要求が報道** — ビジネス監視 SaaS の Anodot でトークン等が流出し、Snowflake 上のデータストアへの不正アクセスにつながったとされる。ShinyHunters による脅迫・Rockstar Games など複数社が言及。出典: [TechCrunch](https://techcrunch.com/2026/04/13/hack-at-anodot-leaves-over-a-dozen-breached-companies-facing-extortion/)（Posted: April 13, 2026）
+
+- **FBI、グローバル・フィッシング「W3LL」の摘発を公表 — インドネシア当局と連携** — 数千人超の被害、数百万ドル規模の詐取試行、マーケットプレイス閉鎖・容疑者拘束などと報道（TechCrunch は FBI 発表を引用）。出典: [TechCrunch](https://techcrunch.com/2026/04/13/fbi-announces-takedown-of-phishing-operation-that-targeted-thousands-of-victims/)（Posted: April 13, 2026）
+
+#### プラットフォーム・子ども安全
+
+- **Roblox、「Kids」「Select」アカウントを導入 — 年齢に応じたゲーム・チャット** — 5〜9歳は Kids、9〜15歳は Select、16歳以上は標準。チャット既定オフや親による通信相手指定など。6月初旬からの段階的展開。出典: [TechCrunch](https://techcrunch.com/2026/04/13/roblox-introduces-kids-and-select-accounts-for-age-appropriate-access-to-games-and-chat/)（April 13, 2026）
+
+#### AI・政策
+
+- **Anthropic、次世代モデル「Mythos」等についてトランプ政権側と協議していると共同創業者が表明** — ペンタゴンとのガードレール契約紛争はある一方、国家安全保障の文脈で政府との対話を続ける姿勢と報道。出典: [Reuters](https://www.reuters.com/world/anthropic-talking-trump-administration-about-its-next-ai-model-co-founder-says-2026-04-13/)（WASHINGTON, April 13, 2026）
+
+#### モビリティ・規制
+
+- **オランダ RDW、Tesla FSD の EU 域内型式承認を欧州委に申請する方針を通知** — 5月に技術委へ提示の見込み、米版より厳しいドライバー監視などとの言及。出典: [Reuters](https://www.reuters.com/business/dutch-regulator-notifies-european-commission-plan-seek-eu-approval-teslas-fsd-2026-04-13/)（April 13, 2026）
+
+### メモ（任意）
+
+- **Mythos** は [Anthropic Glasswing](https://www.anthropic.com/glasswing) 文脈の続報だが、本件は **政権・ペンタゴンとの協議** を主題とする **Reuters 単独 URL** のため新規トピックに掲載。
