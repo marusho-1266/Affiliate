@@ -166,3 +166,4 @@ Task が使えない環境では、親が **各レーンの Task 用プロンプ
 
 - 手順の詳細や例: [reference.md](reference.md)  
 - サブエージェント一覧・マージ方針: [subagents/README.md](subagents/README.md)
+- ブリーフを `note/` 本稿に落とす: [../note-article-from-brief/SKILL.md](../note-article-from-brief/SKILL.md) とコマンド `.cursor/commands/note-article-from-brief.md`

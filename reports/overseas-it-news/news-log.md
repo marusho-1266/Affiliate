@@ -402,3 +402,36 @@
 ### メモ（任意）
 
 - **Mythos** は [Anthropic Glasswing](https://www.anthropic.com/glasswing) 文脈の続報だが、本件は **政権・ペンタゴンとの協議** を主題とする **Reuters 単独 URL** のため新規トピックに掲載。
+
+---
+
+## 調査 2026-04-15 18:00 （JST）
+
+**調査日 D＝2026-04-15。** `news-recency-policy.md` により、新規トピックおよび `### note底稿の続報` の主出典は **JST で 2026-04-14 または 2026-04-15** に公開（記載）されたもの。以下の主出典は **2026-04-14** のページ日付で確認（**4/15 JST 掲載の別件**は本ブロックでは未採用）。
+
+### 新規トピック
+
+#### AI・セキュリティ
+
+- **OpenAI、防御的サイバー向け「GPT-5.4-Cyber」を公表 — Mythos 公表を受けた文脈で限定提供** — 検証済みベンダ・研究者向けに段階展開し、Trusted Access for Cyber を拡大する方針などと報道。出典: [Reuters](https://www.reuters.com/technology/openai-unveils-gpt-54-cyber-week-after-rivals-announcement-ai-model-2026-04-14/)（April 14, 2026）
+
+#### セキュリティ・サプライチェーン
+
+- **WordPress プラグイン群にバックドア — 新オーナーが Essential Plugin 系を取得後、休眠から活性化** — 数万インストール規模、ディレクトリからの削除・利用者への確認呼びかけなど。出典: [TechCrunch](https://techcrunch.com/2026/04/14/someone-planted-backdoors-in-dozens-of-wordpress-plugins-used-in-thousands-of-websites/)（April 14, 2026）
+
+#### クラウド・M&A
+
+- **Amazon、衛星事業 Globalstar を約 115.7 億ドルで買収合意 — Apple との接続継続契約も** — Amazon Leo 強化、Globalstar の軌道・スペクトラム・地上設備の取得などと報道。出典: [TechCrunch](https://techcrunch.com/2026/04/14/amazon-to-buy-globalstar-for-11-57b-in-bid-to-flesh-out-its-satellite-biz/)（April 14, 2026）
+
+#### プラットフォーム・生成 AI
+
+- **Microsoft、MAI-Image-2-Efficient を Foundry／MAI Playground に提供開始** — 従来比で高速・低コストの画像生成を主張、業務利用向けと説明。出典: [The Verge](https://www.theverge.com/tech/911532/microsoft-mai-image-2-efficient-model-release)（Posted Apr 14, 2026）
+
+#### 規制・インフラ
+
+- **米メイン州議会、大型データセンター向けの一時停止（モラトリアム）を米国初として可決したと報道** — 電力・環境・地域コミュニティへの影響を審議する期間を設ける趣旨など。出典: [Reuters](https://www.reuters.com/sustainability/boards-policy-regulation/maine-legislature-approves-first-us-moratorium-big-data-centers-2026-04-14/)（April 14, 2026）
+
+### メモ（任意）
+
+- **note 続報（薄／同一事件）:** `note/20260414/2026-04-14-anthropic-mythos-pentagon-clark｜政権協議と調達訴訟の読み分け.md` について、[TechCrunch（4/14）](https://techcrunch.com/2026/04/14/anthropic-co-founder-confirms-the-company-briefed-the-trump-administration-on-mythos/) で Clark が政権への Mythos ブリーフィングを確認したとあるが、主筋は既ログの [Reuters（4/13）](https://www.reuters.com/world/anthropic-talking-trump-administration-about-its-next-ai-model-co-founder-says-2026-04-13/) と**同一事件**のため `### note底稿の続報` には載せず。Rapidus 底稿（04-13）の **4/14 以降の新主出典**は本回の検索では未確認。
+- **Adobe Acrobat ゼロデイ**の [TechCrunch（4/14）](https://techcrunch.com/2026/04/14/adobe-fixes-pdf-zero-day-security-bug-that-hackers-have-exploited-for-months/) は、既ログの [Adobe APSB26-43](https://helpx.adobe.com/security/products/acrobat/apsb26-43.html)（CVE-2026-34621）と**同一事件**のため新規トピック外。
