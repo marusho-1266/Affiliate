@@ -435,3 +435,45 @@
 
 - **note 続報（薄／同一事件）:** `note/20260414/2026-04-14-anthropic-mythos-pentagon-clark｜政権協議と調達訴訟の読み分け.md` について、[TechCrunch（4/14）](https://techcrunch.com/2026/04/14/anthropic-co-founder-confirms-the-company-briefed-the-trump-administration-on-mythos/) で Clark が政権への Mythos ブリーフィングを確認したとあるが、主筋は既ログの [Reuters（4/13）](https://www.reuters.com/world/anthropic-talking-trump-administration-about-its-next-ai-model-co-founder-says-2026-04-13/) と**同一事件**のため `### note底稿の続報` には載せず。Rapidus 底稿（04-13）の **4/14 以降の新主出典**は本回の検索では未確認。
 - **Adobe Acrobat ゼロデイ**の [TechCrunch（4/14）](https://techcrunch.com/2026/04/14/adobe-fixes-pdf-zero-day-security-bug-that-hackers-have-exploited-for-months/) は、既ログの [Adobe APSB26-43](https://helpx.adobe.com/security/products/acrobat/apsb26-43.html)（CVE-2026-34621）と**同一事件**のため新規トピック外。
+
+---
+
+## 調査 2026-04-16 12:00 （JST）
+
+**調査日 D＝2026-04-16。** `news-recency-policy.md` により、新規トピックおよび `### note底稿の続報` の主出典は **JST で 2026-04-15 または 2026-04-16** に公開（記載）されたもの。**Google DeepMind 公式ブログ**の Gemini Robotics-ER 1.6 は **April 14, 2026（UTC）** 表記で **D−2** にあたるため、新規トピックの主出典は **米メディアの 4/15（米東部）掲載**（JST では 4/16 未明〜）を採用。**NVD** の CVE-2026-22676 は **NVD Published Date: 04/15/2026** で確認。
+
+### 新規トピック
+
+#### AI・ロボティクス
+
+- **Google DeepMind、ロボット向け推論モデル「Gemini Robotics-ER 1.6」を発表 — 空間推論・計器読み取り・Boston Dynamics Spot 連携など** — 公式 DeepMind 投稿は **4/14（UTC）** のため本枠の主出典から外し、**4/15 米東部掲載**の技術メディアを採用（JST **4/16 未明**相当）。Gemini API／AI Studio 提供や計器読み取りの強化など。出典: [SiliconANGLE](https://siliconangle.com/2026/04/15/deepmind-launches-gemini-robotics-er-1-6-meet-precise-physical-ai-demands/)（Published: 2026-04-15T12:15:01-04:00）
+
+#### AI・企業動向
+
+- **OpenAI、収益化のため企業向けへ軸足 — 次世代モデル「Spud」を Anthropic Claude Mythos への対抗として位置づけ** — CFO インタビューで週次ユーザー約9億人のうち約95%が非課金としつつ、法人売上比率の拡大や Sora アプリ終了など消費者施策の縮小、Dresser CRO の Anthropic 批判メモ（The Verge 経由）への言及など。出典: [AP News](https://apnews.com/article/openai-chatgpt-spud-sam-altman-anthropic-mythos-3c2674f5cdf67ac6d88eedb207de117c)（ページ上の掲載タイムスタンプは UTC で **2026-04-16** 帯）
+
+#### セキュリティ
+
+- **nginx-ui の MCP 統合欠陥（CVE-2026-33032、CVSS 9.8）— `/mcp_message` の認証不備で設定改ざん・nginx 乗っ取りが可能と報道** — 3月からの悪用、Pluto Security の詳細公開、修正版への更新や MCP 無効化・IP 制限の回避策など。出典: [CSO Online](https://www.csoonline.com/article/4159248/critical-nginx-ui-tool-vulnerability-opens-web-servers-to-full-compromise.html)（Apr 15, 2026）
+
+- **Barracuda RMM、ローカル権限昇格（CVE-2026-22676）— `C:\Windows\Automation` の ACL 過剰許可が原因** — 2025.2.2 未満が対象。NVD が **2026-04-15** にエントリ公開。出典: [NVD](https://nvd.nist.gov/vuln/detail/CVE-2026-22676)（NVD Published Date: 04/15/2026）
+
+- **Microsoft Copilot Studio と Salesforce Agentforce にフォーム経由のプロンプトインジェクション — 「ShareLeak」「PipeLeak」** — Capsule Security の開示を引用し、CVE-2026-21520（MSRC）や設定依存の指摘など。出典: [CSO Online](https://www.csoonline.com/article/4159079/copilot-and-agentforce-fall-to-form-based-prompt-injection-tricks.html)（Apr 15, 2026）
+
+#### ガバナンス・運用
+
+- **Microsoft Security、AI システム向けインシデント対応の考え方を整理** — 非決定性・速度・観測可能性のギャップ、段階的修復、監視期間、応答者のウェルビーイングなど。出典: [Microsoft Security Blog](https://www.microsoft.com/en-us/security/blog/2026/04/15/incident-response-for-ai-same-fire-different-fuel/)（April 15, 2026）
+
+#### 半導体・自動車
+
+- **Tesla、次世代 AI チップ「AI5」のテープアウトを Musk が表明 — スケジュール遅延や Cybercab は AI4 のまま等** — 量産は中盤2027頃までかかる見込みなどの整理。出典: [Electrek](https://electrek.co/2026/04/15/tesla-ai5-chip-taped-out-musk-ai6-dojo3/)（April 15, 2026）
+
+### note底稿の続報
+
+- **OpenAI「Spud」／法人寄り戦略の報道が補助底稿の整理対象を拡張** — AP が CFO／CRO 談話とメモ報道を束ね、次世代モデル「Spud」と Mythos 対比を明文化。**底稿:** `note/20260415/2026-04-15-openai-gpt-5-4-cyber｜補助｜用語と読み順・報道と公式.md`。**続報出典:** [AP News](https://apnews.com/article/openai-chatgpt-spud-sam-altman-anthropic-mythos-3c2674f5cdf67ac6d88eedb207de117c)（UTC 掲載 2026-04-16 付近）
+
+### メモ（任意）
+
+- **Gemini Robotics-ER 1.6 の公式主出典**は [Google DeepMind Blog](https://deepmind.google/blog/gemini-robotics-er-1-6/)（**April 14, 2026**）および [Google Keyword](https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-robotics-er-1-6/) であり、**D−2** のため `### 新規トピック` には入れず。パートナー文脈は [Boston Dynamics（AIVI-Learning 更新説明）](https://bostondynamics.com/blog/aivi-learning-now-powered-google-gemini-robotics/) を参照（本文に **04/08/2026** の運用記載あり）。
+- **CISA KEV の SharePoint（CVE-2026-32201）**は [CISA リリース](https://www.cisa.gov/news-events/alerts/2026/04/14/cisa-adds-two-known-exploited-vulnerabilities-catalog) が **April 14, 2026** のため **D−1（4/15）未満**として本ブロックでは未採用。
+- **note 続報（薄／同一事件）:** Rapidus・Mythos・Generalist GEN-1・Meta Muse 各底稿は、**4/15 JST 以降の新規主出典 URL**が取れず、または既ログ・既 `seen-urls.json` の同一事件に収束する見込みのため `### note底稿の続報` は上記 **1 件のみ**。
