@@ -16,7 +16,7 @@
 |------|------|
 | **初めての方** | **この補助** → **本編** |
 | **Glasswing から追う方** | [Project Glasswing 本編](../20260408/2026-04-08-project-glasswing-note.md) → **本編**（補助は用語表だけでも可） |
-| **筆者メモ（有料想定）だけ** | 本編の **§6 まとめ**まで読んでから **§7** へ |
+| **要点だけ押さえたい** | 本編 **§6 まとめ** → 本編 **§1-1「Opus 4.7（2026-04-16）」** |
 
 ---
 
@@ -59,15 +59,7 @@
 
 ---
 
-## 4. 本編に入る前のチェックリスト（任意）
-
-- [ ] **Opus 4.7 と Mythos Preview**を混同していない（公式は「Mythos よりサイバー能力は抑えた」と明記）。  
-- [ ] **無許可の侵入テスト**を依頼していない（許可・法域は法務とセット）。  
-- [ ] **API 名・リージョン・ログ**は、自社が実際に契約しているチャネルのドキュメントで再確認した。  
-
----
-
-## 5. カタログ上の比較（API ドキュメント要約）
+## 4. カタログ上の比較（API ドキュメント要約）
 
 **出典:** Anthropic **[Models overview](https://platform.claude.com/docs/en/about-claude/models/overview)**（ページ改定で数値が変わりうるため、**見積・契約前は必ず最新版**を開いて確認してください）。**完全な料金**（Batch・プロンプトキャッシュ・Vision・Extended thinking 課金等）は **[Pricing](https://platform.claude.com/docs/en/about-claude/pricing)** を参照。
 
@@ -79,7 +71,7 @@
 | **Claude API ID（例）** | `claude-opus-4-7` | `claude-opus-4-6` | `claude-sonnet-4-6` | `claude-haiku-4-5-20251001`（エイリアス `claude-haiku-4-5`） |
 | **標準料金（入力／出力・百万トークン）** | **$5**／**$25** | **$5**／**$25** | **$3**／**$15** | **$1**／**$5** |
 | **Extended thinking** | いいえ | はい | はい | はい |
-| **Adaptive thinking** | はい | —（ドキュメントの**旧世代一覧**に当項目の列がない） | はい | いいえ |
+| **Adaptive thinking** | はい | — | はい | いいえ |
 | **コンテキストウィンドウ** | **100万**トークン | **100万** | **100万** | **20万** |
 | **Max output（同期 Messages API）** | **128k** トークン | **128k** | **64k** | **64k** |
 | **Reliable knowledge cutoff**（公式表記） | Jan 2026 | May 2025 | Aug 2025 | Feb 2025 |
@@ -89,6 +81,7 @@
 
 - **Mythos Preview** — [Project Glasswing](https://www.anthropic.com/glasswing) 経由の**研究プレビュー**・招待制。上表のような **公開の「$/MTok」一覧には載らない**運用です（本編の論点どおり **Opus 4.7 GA とは別物**）。  
 - **AWS Bedrock** — 同一ドキュメントでは、**Opus 4.7 は Bedrock 上で research preview** の扱いに触れています（通常 GA の Bedrock ID 表とは読み分けが必要）。  
+- **Adaptive thinking（Opus 4.6 の「—」表記について）** — 4.6 は**旧世代の一覧表**に記載されており、**当項目の列そのものが存在しない**。対応の有無はドキュメントから直接は読めないため、本表では `—` として表記を揃えています。  
 - **Opus 4.6** — ドキュメント上は **4.7 への移行**が推奨され、**Batch API で最大 30 万トークン出力**などの beta ヘッダの記載は **4.7／4.6／Sonnet 4.6** が対象、とあります（詳細は Models overview 本文）。
 
 ---
