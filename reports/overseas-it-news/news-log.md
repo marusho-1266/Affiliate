@@ -477,3 +477,34 @@
 - **Gemini Robotics-ER 1.6 の公式主出典**は [Google DeepMind Blog](https://deepmind.google/blog/gemini-robotics-er-1-6/)（**April 14, 2026**）および [Google Keyword](https://blog.google/innovation-and-ai/models-and-research/google-deepmind/gemini-robotics-er-1-6/) であり、**D−2** のため `### 新規トピック` には入れず。パートナー文脈は [Boston Dynamics（AIVI-Learning 更新説明）](https://bostondynamics.com/blog/aivi-learning-now-powered-google-gemini-robotics/) を参照（本文に **04/08/2026** の運用記載あり）。
 - **CISA KEV の SharePoint（CVE-2026-32201）**は [CISA リリース](https://www.cisa.gov/news-events/alerts/2026/04/14/cisa-adds-two-known-exploited-vulnerabilities-catalog) が **April 14, 2026** のため **D−1（4/15）未満**として本ブロックでは未採用。
 - **note 続報（薄／同一事件）:** Rapidus・Mythos・Generalist GEN-1・Meta Muse 各底稿は、**4/15 JST 以降の新規主出典 URL**が取れず、または既ログ・既 `seen-urls.json` の同一事件に収束する見込みのため `### note底稿の続報` は上記 **1 件のみ**。
+
+---
+
+## 調査 2026-04-17 12:00 （JST）
+
+**調査日 D＝2026-04-17。** `news-recency-policy.md` により、新規トピックおよび `### note底稿の続報` の主出典は **JST で 2026-04-16 または 2026-04-17** に公開（ページ記載）されたもの。**Anthropic** の Opus 4.7 は **Apr 16, 2026**、**OpenAI** の Codex 更新は **April 16, 2026**、**TechCrunch** の Bluesky 記事は **Posted: April 16, 2026（PDT）** で確認。
+
+### 新規トピック
+
+#### AI・モデル
+
+- **Anthropic、Claude Opus 4.7 を一般提供 — 高度ソフトウェア工学・視覚推論の強化、Mythos より能力は抑えた上でサイバー用途の自動検知ブロック、正当なセキュリティ用途向け「Cyber Verification Program」** — Glasswing／Mythos Preview の文脈で段階的な安全策検証の位置づけを説明。API 名 `claude-opus-4-7`、料金は Opus 4.6 と同水準。出典: [Anthropic](https://www.anthropic.com/news/claude-opus-4-7)（Apr 16, 2026）
+
+#### AI・開発者ツール
+
+- **OpenAI、Codex の大規模アップデート — バックグラウンドの computer use（macOS 先行）、アプリ内ブラウザ、gpt-image-1.5 連携、プラグイン追加、PR レビューコメント対応・複数ターミナル・SSH devbox、自動化のスレッド再利用・スケジュール実行、メモリのプレビュー等** — 週300万人超の開発者向けにワークフロー全体をカバーする方向と説明。出典: [OpenAI](https://openai.com/index/codex-for-almost-everything/)（April 16, 2026）
+
+#### プラットフォーム・インフラ
+
+- **分散SNS Bluesky がサービス障害 — COO が DoS 攻撃と帰属、米東部 4/16 未明から status ページで継続調査** — 公式フィードのレート制限やエラー表示など。出典: [TechCrunch](https://techcrunch.com/2026/04/16/its-not-just-you-bluesky-is-sorta-down/)（Posted April 16, 2026 PDT）
+
+### note底稿の続報
+
+- **Glasswing／Mythos 以降の「サイバー安全策の段階的検証」として Opus 4.7 を位置づけ、Cyber Verification Program を新設** — 公式が前週の Glasswing 公表と接続して説明。**底稿:** `note/20260408/2026-04-08-project-glasswing-note.md`。**続報出典:** [Anthropic](https://www.anthropic.com/news/claude-opus-4-7)（Apr 16, 2026）
+
+- **法人・職場向けのプロダクト投下として Codex を拡張（computer use・ブラウザ・画像・メモリ等）** — Spud／法人比率のナラティブと並行して「開発者の職場OS」側の更新。**底稿:** `note/20260416/2026-04-16-openai-spud-enterprise-pivot｜OpenAI「Spud」と法人寄りシフト.md`。**続報出典:** [OpenAI](https://openai.com/index/codex-for-almost-everything/)（April 16, 2026）
+
+### メモ（任意）
+
+- **note 続報（薄／未採用）:** `note/20260415/2026-04-15-openai-gpt-5-4-cyber｜…` など TAC／GPT-5.4-Cyber 底稿に対し、**4/16 JST 以降の OpenAI 公式の「同トピックの追記」**は本回検索では未確認（Codex は別レーン）。`note/20260414` Mythos・政権協議稿は Opus 4.7 が **製品**中心のため **同一事件の続報にはせず**、上記 Glasswing 底稿に集約。
+- **nginx-ui（CVE-2026-33032）**の追跡記事や **Marimo／NKAbuse** 系は、主出典ページの**鮮度が D−1 未満**、または取得不能のため本ブロックの新規トピック外。
