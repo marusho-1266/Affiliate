@@ -508,3 +508,33 @@
 
 - **note 続報（薄／未採用）:** `note/20260415/2026-04-15-openai-gpt-5-4-cyber｜…` など TAC／GPT-5.4-Cyber 底稿に対し、**4/16 JST 以降の OpenAI 公式の「同トピックの追記」**は本回検索では未確認（Codex は別レーン）。`note/20260414` Mythos・政権協議稿は Opus 4.7 が **製品**中心のため **同一事件の続報にはせず**、上記 Glasswing 底稿に集約。
 - **nginx-ui（CVE-2026-33032）**の追跡記事や **Marimo／NKAbuse** 系は、主出典ページの**鮮度が D−1 未満**、または取得不能のため本ブロックの新規トピック外。
+
+---
+
+## 調査 2026-04-18 12:00 （JST）
+
+**調査日 D＝2026-04-18。** `news-recency-policy.md` により、新規トピックおよび `### note底稿の続報` の主出典は **JST で 2026-04-17 または 2026-04-18** に公開（ページ記載）されたもの。**Anthropic** の Claude Design は **Apr 17, 2026**、**Reuters** の Cerebras IPO 電は **April 17, 2026**、**TechCrunch** の Sequoia 記事は **Published: 2026-04-17T02:55:06+00:00（UTC）** で確認。**OpenAI×Cerebras の追加支出報道**（Reuters 電 **April 16**）は **D−2** のため本ブロックの新規トピックには含めず（必要なら別週で SEC 提出書類と併読）。
+
+### 新規トピック
+
+#### 生成AI・プロダクト
+
+- **Anthropic Labs が「Claude Design」を研究プレビュー公開 — プロトタイプ・スライド・ワンページ等のビジュアル制作を自然言語で支援、Opus 4.7 を搭載** — Pro／Max／Team／Enterprise 向けに段階展開、デザインシステムの自動適用や Claude Code への引き渡しなどを説明。出典: [Anthropic](https://www.anthropic.com/news/claude-design-anthropic-labs)（Apr 17, 2026）
+
+#### 半導体・資本市場
+
+- **AI チップ企業 Cerebras が米国 IPO の届出を再提出 — 2025 年は黒字転換、Nvidia 競合としてウエハースケール推論など** — OpenAI との大規模取引の文脈や上場見通しが Reuters で整理。出典: [Reuters](https://www.reuters.com/technology/nvidia-rival-cerebras-reveals-us-ipo-filing-ai-boom-drives-listings-2026-04-17/)（April 17, 2026）
+
+#### ベンチャー・AI投資
+
+- **Sequoia Capital が拡張戦略向けに約 70 億ドルの新ファンドを調達したと報道 — AI 後期投資のスケール拡大** — Bloomberg を根拠に TechCrunch が紹介、新共同リーダー体制下で初の大型調達など。出典: [TechCrunch](https://techcrunch.com/2026/04/16/new-leaders-new-fund-sequoia-has-raised-7b-to-expand-its-ai-bets/)（Published: 2026-04-17T02:55:06+00:00）
+
+### note底稿の続報
+
+- **Opus 4.7 公開の翌日に Anthropic Labs で「Claude Design」を研究プレビュー — モデルをビジュアル製品に接続** — 底稿で扱った Opus 4.7 とサイバー安全策の段階的検証に続く、別レーンのプロダクト投下。**底稿:** `note/20260417/2026-04-17-anthropic-claude-opus-4-7｜Opus-4.7とサイバー安全策の一段目.md`。**続報出典:** [Anthropic](https://www.anthropic.com/news/claude-design-anthropic-labs)（Apr 17, 2026）
+
+### メモ（任意）
+
+- **対象範囲:** 直近 8 週間の `note/20######/` 配下（`note/Druft/` 除外）を走査。ラジオ台本は本編がある場合は本編のみを優先。
+- **note 続報（薄／未採用）:** Rapidus・Mythos／政権協議・Meta Muse・Generalist GEN-1 各底稿は、**4/17 JST 以降の新規主出典**が取れず、または本ブロックの鮮度条件外。**OpenAI×Cerebras の詳細報道**は主出典が **4/16 電**のため `### note底稿の続報` には入れず（`note/20260402/OpenAI約1220億ドル調達…` への「compute パートナー」続報は **薄**扱いで別資料推奨）。
+- **同一 CVE:** nginx-ui（CVE-2026-33032）の **4/17 追跡記事**は既ログの CSO Online 報道と**同一事件**のため新規トピック外。
