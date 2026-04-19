@@ -1,7 +1,5 @@
 # 「ITニュース」｜Claude Design — Opus 4.7 を載せた「ビジュアルの職場」
 
-**本稿の公開日:** 2026年4月19日。以下の**事実の日付**は、Anthropic 公式の発表日を基準にしています。
-
 ## はじめに
 
 2026年4月17日、Anthropic は公式ブログ **[Introducing Claude Design by Anthropic Labs](https://www.anthropic.com/news/claude-design-anthropic-labs)** で、**Claude Design** を **研究プレビュー（いわゆる試験公開）**として発表しました。同社の**実験・プロダクト探索レーン**にあたる **Anthropic Labs** 製品として提供され、**プロトタイプ・スライド・画像**などのビジュアル制作から、**Claude Code への実装ハンドオフ**（実装への引き継ぎ）、**Canva・PDF・PPTX・HTML** などへの書き出しまでを、**ひとつのワークフロー**にまとめたものと位置づけられています。

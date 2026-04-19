@@ -1,6 +1,6 @@
 # Threads 投稿文案（フォーマット準拠）
 
-`threads/投稿文案フォーマット.md` の**朝・昼・夜いずれか一方**に沿った **Threads 下書き Markdown** を生成する。文体・トーンは **`.cursor/skills/threads-marusho-posts/SKILL.md`**、手順・出力構造は **`.cursor/skills/threads-post-from-format/SKILL.md`** が正本。
+`threads/投稿文案フォーマット.md` の**朝・昼・夜いずれか一方**に沿った **Threads 下書き Markdown** を生成する。**朝・昼の既定**は `threads/threads_ai_lifehack_buzz_guide.md` に沿った**リスト型（1行目＋・が5つ、リスト後に締め段落なし）**。手順・出力構造は **`.cursor/skills/threads-post-from-format/SKILL.md`**、文体・旧型は **`.cursor/skills/threads-marusho-posts/SKILL.md`** が正本。
 
 ## スロット（第1引数・必須）
 
@@ -23,8 +23,9 @@
 ## エージェントが最初にすること（必須）
 
 1. **`.cursor/skills/threads-post-from-format/SKILL.md` を読む**（スロット解釈・出力テンプレ・保存規則）。
-2. **`.cursor/skills/threads-marusho-posts/SKILL.md` を読む**（まるしょー文体・チェックリスト）。
-3. **`threads/投稿文案フォーマット.md` を読む**（埋め字・見出し・ファイル名規則の参照）。
+2. **`threads/threads_ai_lifehack_buzz_guide.md` を読む**（朝・昼リスト型の型・黄金ルール）。
+3. **`.cursor/skills/threads-marusho-posts/SKILL.md` を読む**（まるしょー文体・チェックリスト・旧型）。
+4. **`threads/投稿文案フォーマット.md` を読む**（埋め字・見出し・ファイル名規則の参照）。
 
 ## 入力の取り方
 
@@ -41,7 +42,8 @@
 | **既定の保存先** | `threads/` |
 | **ファイル名** | `YYYY-MM-DD-〈スラッグ〉-threads-morning.md` など（スロットに応じ `-morning` / `-midday` / `-evening`）。スキル本文の表に従う。 |
 | **本文構造** | `## 投稿1（メイン）` / `## 投稿2` / `## 1本にまとめる場合（参考）` を含む完全な下書き（フォーマットどおり）。 |
-| **昼の文体** | 報道が根拠のときは「～と報じられています」「～とも書かれています」等で媒体に帰属（`threads/2026-04-14-anthropic-mythos-pentagon-threads-midday.md` と同型）。投稿1の末尾は固定で「夜に、一次リンクと用語の短い注を含めて note にまとめる予定です。」（`続く↓` の直前）。 |
+| **朝・昼（既定）** | **リスト型**。1行目＋ **・** が**ちょうど5つ**。リストの**直後に締め段落を足さない**。前日noteは**ニュアンスのみ**。昼は**ツール操作寄り**、朝は**心構え・見方**。 |
+| **昼（旧型・任意）** | ユーザーが報道メモ等と明示したとき: 「～と報じられています」等の帰属。投稿1末尾「夜に、一次リンクと用語の短い注を含めて note にまとめる予定です。」（`threads/2026-04-14-anthropic-mythos-pentagon-threads-midday.md` と同型）。 |
 | **Threads 向け本文** | 貼り付け用の段落に Markdown 太字 `**` を入れない（Threads では反映されない）。 |
 
 ## チャットでの返答
