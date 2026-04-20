@@ -538,3 +538,33 @@
 - **対象範囲:** 直近 8 週間の `note/20######/` 配下（`note/Druft/` 除外）を走査。ラジオ台本は本編がある場合は本編のみを優先。
 - **note 続報（薄／未採用）:** Rapidus・Mythos／政権協議・Meta Muse・Generalist GEN-1 各底稿は、**4/17 JST 以降の新規主出典**が取れず、または本ブロックの鮮度条件外。**OpenAI×Cerebras の詳細報道**は主出典が **4/16 電**のため `### note底稿の続報` には入れず（`note/20260402/OpenAI約1220億ドル調達…` への「compute パートナー」続報は **薄**扱いで別資料推奨）。
 - **同一 CVE:** nginx-ui（CVE-2026-33032）の **4/17 追跡記事**は既ログの CSO Online 報道と**同一事件**のため新規トピック外。
+
+---
+
+## 調査 2026-04-20 14:00 （JST）
+
+**調査日 D＝2026-04-20。** `news-recency-policy.md` により、新規トピックおよび `### note底稿の続報` の主出典は **JST で 2026-04-19 または 2026-04-20** に公開（ページ記載の日付／Last updated）されたもの。**Vercel** のセキュリティ速報は KB の **Last updated April 20, 2026**、**Axios** の NSA／Mythos 記事は **Apr 19, 2026**、**The Verge** の Keychron レビューは **Apr 19, 2026, 12:00 PM UTC** で確認。
+
+### 新規トピック
+
+#### セキュリティ・サプライチェーン
+
+- **Vercel が社内システムへの不正アクセスを公表 — 第三者 AI ツール（Context.ai）経由で従業員の Google Workspace が乗っ取られ、非「sensitive」環境変数などに到達した可能性** — Mandiant 等と調査継続、限定的な顧客への連絡と資格情報ローテ推奨、OAuth アプリの IOC 公開。出典: [Vercel Knowledge Base](https://vercel.com/kb/bulletin/vercel-april-2026-security-incident)（Last updated April 20, 2026）
+
+#### AI・政策
+
+- **NSA が Anthropic の Mythos にアクセスしていると報道 — Pentagon がサプライチェーンリスクと位置づけた企業のモデルへのアクセスとのギャップが焦点** — 約 40 組織が Glasswing 文脈でアクセスとし、NSA は主に自ネットワークの脆弱性特定に利用との説明。出典: [Axios](https://www.axios.com/2026/04/19/nsa-anthropic-mythos-pentagon)（Apr 19, 2026）
+
+#### ハードウェア・周辺機器
+
+- **Keychron の Q1／V5 Ultra 8K レビュー — ZMK ファームウェアと 8kHz 無線ポーリング、長時間バッテリーが売り** — 既存 Q／V シリーズからの実用上の改善点を整理。出典: [The Verge](https://www.theverge.com/tech/914085/keychron-q1-v5-ultra-8k-zmk-mechanical-keyboards-review)（Apr 19, 2026, 12:00 PM UTC）
+
+### note底稿の続報
+
+- **Mythos の政府・防衛側アクセスが「NSA まで含む」形で報じられ、Glasswing／政権協議の線と接続して読める** — Axios が複数ソースを引用。**底稿:** `note/20260414/2026-04-14-anthropic-mythos-pentagon-clark｜政権協議と調達訴訟の読み分け.md` / `note/20260410/2026-04-10-Mythos｜米財務省・FRBと大行CEO会合報道の読み分け.md`。**続報出典:** [Axios](https://www.axios.com/2026/04/19/nsa-anthropic-mythos-pentagon)（Apr 19, 2026）
+
+### メモ（任意）
+
+- **対象範囲:** 直近 8 週間の `note/20######/`（`note/Druft/` 除外）を走査。ラジオ台本は本編がある場合は本編のみを参照。
+- **同一事件:** Vercel 侵害の **The Verge 報道**（[The Verge](https://www.theverge.com/tech/914723/vercel-hacked)、Apr 19, 2026 7:54 PM UTC）は上記 **Vercel 公式 KB と同一事件**のため、主出典は KB に集約（`seen-urls.json` に The Verge URLは未追加）。
+- **note 続報（薄／未採用）:** Claude Design 底稿（`note/20260419/…`）は **4/18 以降の Anthropic 公式の新規プレス**は未確認。Cerebras IPO・Sequoia ファンド・Codex 等の底稿は **4/19 JST 以降の新規主出典**が本ブロックの鮮度条件で未採用。Rapidus・Generalist GEN-1・Meta Muse も同様。
