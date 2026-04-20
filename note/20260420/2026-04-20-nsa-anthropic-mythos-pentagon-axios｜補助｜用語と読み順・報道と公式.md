@@ -1,8 +1,8 @@
-# 「ITニュース・補助」｜NSA／Mythos／ペンタゴン — 用語と読み順
+# 「ITニュース・補助」｜NSA／Mythos／ペンタゴン — 用語と読み順・報道と公式
 
 ## 本稿の位置づけ
 
-- **本編（無料）:** [「ITニュース」｜NSA と Mythos — 「ブラックリスト」と報道のズレをどう読むか](./2026-04-20-nsa-anthropic-mythos-pentagon-axios｜NSAとMythos──「指定」と報道のズレをどう読むか.md)  
+- **本編（無料）:** [「ITニュース」｜NSA と Mythos — 「指定」と報道のズレをどう読むか](./2026-04-20-nsa-anthropic-mythos-pentagon-axios｜NSAとMythos──「指定」と報道のズレをどう読むか.md)  
   Axios の 2026-04-19 報道を中心に、**何が報道で何が公式で、何が未確認か**を整理する。
 - **補助（本稿）:** 用語の足場、読み順、**報道と公式のレイヤ**の図式的整理。本編の焼き直しはしない。
 
@@ -19,10 +19,16 @@
 | **Mythos Preview** | Anthropic が公表する、一般公開しない位置づけのフロンティアモデル（サイバー能力が強いと説明）。Project Glasswing の中核。 |
 | **Project Glasswing** | 2026-04-07 公表のイニシアティブ。限定パートナーと追加組織へ Mythos Preview を defensive 用途で提供する枠組み。 |
 | **supply chain risk（サプライチェーン・リスク）** | 報道でペンタゴンが Anthropic に付した指定のラベル。法的効果・範囲は**別資料・契約・報道各本**で確認が必要。 |
-| **NSA** | 米 National Security Agency。国防総省の監督下にあるとされるが、**本件の Mythos 利用は Axios の匿名ソース報道**が主な入口。 |
+| **NSA** | 米 National Security Agency。位置づけの詳細は下の「NSA の位置づけ」。**本件の Mythos 利用は Axios の匿名ソース報道**が主な入口。 |
 | **Axios** | 米デジタルメディア。本件では **Scoop（匿名ソース）** 記事が先行している点に注意。 |
 | **一次（公式）** | 当事者の声明・プレスリリース・裁判所の公開文書など。本件では Anthropic の Glasswing ページ、当事者のコメント拒否も「沈黙」として情報。 |
-| **二次（報道）** | 通信社・専門誌などがソースを挟んだ記事。The Verge 等は Axios を要約する例あり。 |
+| **二次（報道）** | 通信社・専門誌などがソースを挟んだ記事。例: [The Verge — *The NSA reportedly has access to Anthropic's Mythos…*](https://www.theverge.com/ai-artificial-intelligence/914748/the-nsa-reportedly-has-access-to-anthropics-mythos-despite-being-labeled-a-supply-chain-risk)（Axios のスクープを受けた二次報道の一例）。 |
+
+### NSA の位置づけ（読み分け用）
+
+**組織上** — NSA（国家安全保障局）は、**国防総省（DoD）傘下**の情報機関であり、米国情報コミュニティ（IC）の構成機関の一つです。**NSA／Central Security Service（CSS）の長**は、**国防長官の指名に基づき上院の承認を経て**就任します（人事の枠組み・軍／文民の扱いは時代で変遷あり）。一次説明は **NSA 公式サイト**の *About*／組織概要のページで確認できます。第三者による公開整理として [Wikipedia — National Security Agency（Organization）](https://en.wikipedia.org/wiki/National_Security_Agency#Organization) も参照できます（**本補助の事実関係の最終確認は公式・一次に寄せてください**）。
+
+**監督・横串・本件での読み** — IC 全体の調整では**国家情報長官（DNI）／ODNI**が横串で関与し得ますが、**NSA の所管は国防総省**です。見出し上は「ペンタゴン側が supply chain risk と位置づけたベンダー」と「NSA が Mythos を利用している」が並立しますが、**矛盾に見えても、調達・契約・使用承認・訴訟のレイヤが別**になりうる、と切り分けると議論が整理しやすいです。個別の承認経路の深掘りは本稿・本補助では行いません。
 
 ## 2. 年表（圧縮）
 
@@ -48,6 +54,6 @@
 
 ## 4. 本編に入る前のチェックリスト（任意）
 
-- [ ] 見出しの「ブラックリスト」が**何の制度・指定を指すか**、自分の文脈で言い換えたか
+- [ ] 報道見出しの *blacklist*／「ブラックリスト」が**何の制度・指定（supply chain risk 等）を指すか**、自分の文脈で言い換えたか（本編 H1 直下の一文も参照）
 - [ ] **NSA 利用**を「確定事実」ではなく「報道ベース」と書き分けたか
 - [ ] Glasswing の **「40 超・非公開」** と報道の **「NSA は非公開の一つ」** を混同していないか

@@ -37,6 +37,12 @@
 - スキルどおり**短い一次確認**をするときのみ **Web 検索／ページ取得**を使う。
 - 完成稿を **Write** で `note/` に保存する。
 
+## 有料化レディで書くとき
+
+**筆者メモ（note 本番では有料ブロック想定）**を同時に置きたい場合は、本編末尾「主な参照」の**直後**に `## 〈番号〉. 筆者メモ（…）` を追加する。**振り分け規則（観察は無料／判断は筆者メモ）と 7-1〜7-5 の雛形**は `.cursor/skills/note-trio-pack/SKILL.md` を参照（本コマンド・本スキルは正本にしない）。既存本編の**有料化レディ再編だけ**したいときは `.cursor/commands/note-trio-pack.md` を使う。
+
 ## 関連
 
 - ブリーフをまだ持っていない場合: `.cursor/commands/overseas-it-news-deep-dive.md` と `.cursor/skills/note-deep-dive-report/SKILL.md`
+- 三層（本編＋補助＋筆者メモ）: `.cursor/commands/note-trio-pack.md` と `.cursor/skills/note-trio-pack/SKILL.md`
+- テンプレ: `note/ニュースnoteテンプレ.md`（無料＋筆者メモの並び）
