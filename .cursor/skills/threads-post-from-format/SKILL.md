@@ -3,7 +3,8 @@ name: threads-post-from-format
 description: >-
   Generates Japanese Threads draft Markdown from threads/投稿文案フォーマット.md
   for 朝/昼/夜. Morning and midday default to list-style (5 bullets, no closing lines
-  after list) per threads_ai_lifehack_buzz_guide.md; threads-marusho-posts for voice.
+  after list) per threads_ai_lifehack_buzz_guide.md; SE-who-uses-AI tips for general
+  users, not tied to note/evening; threads-marusho-posts for voice.
   Use when the user runs threads-post-from-format command or asks for Threads 文案.
 ---
 
@@ -28,12 +29,12 @@ description: >-
 1. `threads/投稿文案フォーマット.md`（骨子・埋め字・朝昼夜の表）
 2. `threads/threads_ai_lifehack_buzz_guide.md`（朝・昼の既定がリスト型のときの型・ルール）
 3. `.cursor/skills/threads-marusho-posts/SKILL.md`（文体・チェックリスト・旧型）
-4. ユーザーが `@` した **note 底稿** / **ブリーフ** / **速報ログ** など（あれば全文または該当節）
+4. ユーザーが `@` した **note 底稿** / **ブリーフ** / **速報ログ** など（**夜**や旧型のとき。朝・昼の実務Tips単体なら不要）
 
 ## 情報の取り方
 
-- **朝（既定）**: **リスト型**。1行目にテーマ＋「5つ」＋「朝イチで保存推奨」など。次行から **・** で5項目（心構え・見方・チェック）。前日の **note／ニュースはニュアンスのみ**（例: 画像・デザイン系なら項目の角度を寄せる）。**リストの直後に締め段落を足さない**（ユーザーが明示した場合のみ）。
-- **昼（既定）**: **リスト型・ツール操作寄り**。1行目＋ **・** で5項目（ブラウザ・プロンプト・書き出し・貼り付けなど）。朝と役割を分け、昼は **操作・手順**。**リストの直後に締め段落を足さない**（既定）。`**` は使わない。
+- **朝（既定）**: **リスト型**。1行目にテーマ＋「5つ」＋「朝イチで保存推奨」など。次行から **・** で5項目（心構え・見方・チェック）。内容は **業務でAIを使うSEの勘所**を一般ユーザー向けに。**夜・noteと連動しない**（記事誘導・「昨夜の続き」等なし）。**リストの直後に締め段落を足さない**（ユーザーが明示した場合のみ）。
+- **昼（既定）**: **リスト型・ツール操作寄り**。1行目＋ **・** で5項目（ブラウザ・プロンプト・書き出し・貼り付けなど）。**SEの現場で効いた手順**を一般向けに。朝と役割を分け、昼は **操作・手順**。**夜・noteと連動しない**。**リストの直後に締め段落を足さない**（既定）。`**` は使わない。
 - **朝・昼（旧型・任意）**: ユーザーが **調査メモ・報道整理** 等と明示したとき。報道が主な根拠なら「～と報じられています」等で帰属。投稿1末尾の固定締め: `夜に、一次リンクと用語の短い注を含めて note にまとめる予定です。` 手本: `threads/2026-04-14-anthropic-mythos-pentagon-threads-midday.md`。
 - **夜**: **note 公開の事実**、タイトル相当、一次の根拠と日付、読みどころ、補足・一次 URL、note URL の扱い（リプ／プロフィール等はユーザー方針または既存 `threads/*.md` に合わせる）。
 
@@ -118,6 +119,7 @@ description: >-
 - [ ] 昼で長い場合、投稿1末尾に `続く↓` があるか（不要なら省略でよい）
 - [ ] 投稿1・投稿2・1本にまとめる場合の本文に `**` が含まれていない
 - [ ] 夜で note URL が未確定なら、既存例と同様の**差し替え注**を書いてある
+- [ ] 朝・昼で **note・夜ポストの匂わせ・誘導**をしていない
 
 ## ユーザー指示の優先
 
