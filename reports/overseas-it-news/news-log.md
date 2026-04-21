@@ -568,3 +568,47 @@
 - **対象範囲:** 直近 8 週間の `note/20######/`（`note/Druft/` 除外）を走査。ラジオ台本は本編がある場合は本編のみを参照。
 - **同一事件:** Vercel 侵害の **The Verge 報道**（[The Verge](https://www.theverge.com/tech/914723/vercel-hacked)、Apr 19, 2026 7:54 PM UTC）は上記 **Vercel 公式 KB と同一事件**のため、主出典は KB に集約（`seen-urls.json` に The Verge URLは未追加）。
 - **note 続報（薄／未採用）:** Claude Design 底稿（`note/20260419/…`）は **4/18 以降の Anthropic 公式の新規プレス**は未確認。Cerebras IPO・Sequoia ファンド・Codex 等の底稿は **4/19 JST 以降の新規主出典**が本ブロックの鮮度条件で未採用。Rapidus・Generalist GEN-1・Meta Muse も同様。
+
+---
+
+## 調査 2026-04-21 12:00 （JST）
+
+**調査日 D＝2026-04-21。** `news-recency-policy.md` により、新規トピックおよび `### note底稿の続報` の主出典は **JST で 2026-04-20 または 2026-04-21** に公開（ページ記載）されたもの。**Apple** のプレスは **PRESS RELEASE April 20, 2026**、**Reuters** の Bezos／Prometheus 電は本文 **April 20 (Reuters)**（URL スラグは `2026-04-21`）、**Ars Technica** の Mythos 記事は **Published: 2026-04-20**、**9to5Mac** の Codex Chronicle は **2026/04/20**、**GlobeNewswire** の Aikido は **April 20, 2026 07:00 ET** で確認。
+
+### 新規トピック
+
+#### 企業・経営
+
+- **Apple が CEO 交代を発表 — Tim Cook が 2026年9月1日付でエグゼクティブ・チェアマンへ、ハードウェアエンジニアリング SVP の John Ternus が CEO に** — 取締役会全会一致、夏まで Cook が CEO を継続して移行を支援、Arthur Levinson はリード・インディペンデント・ディレクターへ、Johnny Srouji がチーフ・ハードウェア・オフィサーに、など。出典: [Apple Newsroom](https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/)（April 20, 2026）
+
+#### AI・資金調達
+
+- **Jeff Bezos 率いる AI ラボ「Project Prometheus」が約100億ドル調達で企業価値約380億ドルに近づく見込み、と FT 報道を Reuters が要約 — JPMorgan・BlackRock などが投資候補、製造・自動車・宇宙船向けのエンジニアリング用途** — クロージングは未確定。出典: [Reuters](https://www.reuters.com/technology/jeff-bezos-ai-lab-nears-38-billion-valuation-funding-deal-ft-reports-2026-04-21/)（April 20 (Reuters)、FT 報道ベース）
+
+#### AI・セキュリティ・ガバナンス
+
+- **Anthropic の Mythos をめぐり、政府・金融当局や企業がサイバー防御の追いつかなさを懸念する論調が英語圏で拡散 — 実害型悪用やエージェント時代の非対称性などを整理** — FT などの引用を含む総括記事。出典: [Ars Technica](https://arstechnica.com/ai/2026/04/anthropics-mythos-ai-model-sparks-fears-of-turbocharged-hacking/)（Published 2026-04-20）
+
+#### AI・開発者ツール
+
+- **OpenAI が Codex for Mac に「Chronicle」を追加 — 画面コンテキストでメモリを補強し、作業の言い直しを減らす研究プレビュー（Pro 向け、EU/UK/CH は対象外等）** — 公式開発者ドキュメントと同日のメディア解説。出典: [9to5Mac](https://9to5mac.com/2026/04/20/codex-for-mac-gains-chronicle-for-enhancing-context-using-recent-screen-content/)（2026-04-20）
+
+#### セキュリティ・サプライチェーン
+
+- **Aikido Security が開発者端末向け「Aikido Endpoint」を発表 — npm／PyPI／IDE 拡張など横断でインストール前ブロック、オープンソースの Safe Chain をエンタープライズ展開** — OSS サプライチェーン被害の増大を背景に位置づけ。出典: [GlobeNewswire（Aikido Security）](https://www.globenewswire.com/news-release/2026/04/20/3276846/0/en/Aikido-Security-Launches-Endpoint-Protection-for-Developer-Devices-as-Software-Supply-Chain-Attacks-Hit-Unprecedented-Scale.html)（April 20, 2026 07:00 ET）
+
+### note底稿の続報
+
+- **Mythos の能力と当局・産業の反応が英語メディアで一段と可視化（金融当局会合・各国の警戒発言などの文脈）** — 底稿で整理した Glasswing／政権・防衛側アクセスの線に、国際的な「脅威認知」の報道が重なる。**底稿:** `note/202604/20260414/2026-04-14-anthropic-mythos-pentagon-clark｜政権協議と調達訴訟の読み分け.md` / `note/202604/20260420/2026-04-20-nsa-anthropic-mythos-pentagon-axios｜NSAとMythos──「指定」と報道のズレをどう読むか.md`。**続報出典:** [Ars Technica](https://arstechnica.com/ai/2026/04/anthropics-mythos-ai-model-sparks-fears-of-turbocharged-hacking/)（Published 2026-04-20）
+
+- **Codex 大型更新の翌週、Mac 向けに Chronicle（画面文脈×メモリ）が追加** — 4/16 公式の「職場化」ナラティブに続くプロダクト追投下。**底稿:** `note/202604/20260417/2026-04-17-openai-codex-major-update｜Codexが「開発の職場」まで広がる更新.md`。**続報出典:** [9to5Mac](https://9to5mac.com/2026/04/20/codex-for-mac-gains-chronicle-for-enhancing-context-using-recent-screen-content/)（2026-04-20）
+
+- **Cook から Ternus への CEO 交代が公式に確定 — ハードウェア主導の次世代が表舞台に** — Apple Silicon や製品ポートフォリオの文脈で読める経営交代。**底稿:** `note/202603/20260331/Apple_AI戦略ハードウェア転換_深堀り分析.md`。**続報出典:** [Apple Newsroom](https://www.apple.com/newsroom/2026/04/tim-cook-to-become-apple-executive-chairman-john-ternus-to-become-apple-ceo/)（April 20, 2026）
+
+### メモ（任意）
+
+- **対象範囲:** 直近 8 週間の `note/**`（`note/Druft/` 除外）を走査。ラジオ台本は本編がある場合は本編を優先。
+- **note 続報（薄／未採用）:** Rapidus・Generalist GEN-1・Meta Muse・Claude Design 専用底稿などは、**4/20 JST 以降の新規主出典**が本ブロック条件で未採用、または同一事件の再整理のみ。
+- **開発者向け Chronicle の公式ドキュメント**（[OpenAI Developers](https://developers.openai.com/codex/memories/chronicle)）はページ上に**単独の公開日が明記されにくい**ため、本ブロックの新規トピックは **9to5Mac（2026-04-20）** を主出典に集約。
+
+---
