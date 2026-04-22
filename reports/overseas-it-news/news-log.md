@@ -612,3 +612,31 @@
 - **開発者向け Chronicle の公式ドキュメント**（[OpenAI Developers](https://developers.openai.com/codex/memories/chronicle)）はページ上に**単独の公開日が明記されにくい**ため、本ブロックの新規トピックは **9to5Mac（2026-04-20）** を主出典に集約。
 
 ---
+
+## 調査 2026-04-22 12:00 （JST）
+
+**調査日 D＝2026-04-22。** `news-recency-policy.md` により、新規トピックおよび `### note底稿の続報` の主出典は **JST で 2026-04-21 または 2026-04-22** に公開（ページ記載）されたもの。**TechCrunch** の SpaceX／Cursor 記事は **April 21, 2026 3:58 PM PDT**、**Google** の Deep Research ブログは **Apr 21, 2026**、**OpenAI** の Codex ブログは **April 21, 2026**、**OpenAI API Changelog** の **Apr 21** エントリ（GPT Image 2）を本文で確認。
+
+### 新規トピック
+
+#### 宇宙企業×開発者ツール・大型提携
+
+- **SpaceX が Cursor と提携し、年内に Cursor を最大約600億ドルで買い取る「オプション」か、共同開発の対価として最大約100億ドルを払う選択肢を公表 — Colossus スパコンと「コーディング・ナレッジ労働向け次世代AI」を掲げる** — 報道は同時期の大規模資金調達目標や IPO 前の企業価値の扱いにも言及。出典: [TechCrunch](https://techcrunch.com/2026/04/21/spacex-is-working-with-cursor-and-has-an-option-to-buy-the-startup-for-60-billion/)（April 21, 2026）
+
+#### 生成AI・API
+
+- **Google が Gemini 3.1 Pro 基盤の「Deep Research」と「Deep Research Max」を双方向展開 — 速度重視版と、テスト時計算で網羅性を上げる Max、MCP 連携・可視化・Gemini API 有料層** — 12月プレビューからの段階的置き換えを説明。出典: [Google（The Keyword / blog.google）](https://blog.google/innovation-and-ai/models-and-research/gemini-models/next-generation-gemini-deep-research/)（Apr 21, 2026）
+
+- **OpenAI API に画像生成・編集モデル「GPT Image 2」をリリース — 柔らかな解像度指定、高忠実度の画像入力、トークン課金、Batch API 50% 割引など** — 開発者向け Changelog の **Apr 21** エントリに掲載。出典: [OpenAI（API / Changelog）](https://developers.openai.com/changelog)（Apr 21, 2026）
+
+### note底稿の続報
+
+- **法人向け「Codex Labs」開始と GSI パートナー列挙 — 週次WAU4百万超の文脈で底稿の「職場化」以降の一段目** — 直近 4/16 公式の大型 Codex 更新に続く、導入支援とスケールの公式的な枠づけ。**底稿:** `note/202604/20260417/2026-04-17-openai-codex-major-update｜Codexが「開発の職場」まで広がる更新.md`。**続報出典:** [OpenAI](https://openai.com/index/scaling-codex-to-enterprises-worldwide/)（April 21, 2026）
+
+### メモ（任意）
+
+- **対象範囲:** 直近 8 週間の `note/**` 底稿（`note/Druft/` 除外）を走査。`note/202604/20260422/` には**リポジトリ上では底稿ファイルなし**（ローカルに未コミットの `…spacex-cursor…` がある場合は、本ブロックの SpaceX／Cursor 主出典と**同一URL枠**で扱うのが自然）。
+- **note 続報（薄／未採用）:** Cerebras IPO・Rapidus・Mythos 専用底稿・Spud 等は **4/21 JST 以降の新規主出典**が本回の鮮度で追加採用せず、または前回ログ（4/21 調査）の Apple／Mythos／Codex Chronicle と**同一事件の再整理**中心。
+- **旧「The new ChatGPT Images」**（[OpenAI 同一URL](https://openai.com/index/new-chatgpt-images-is-here/)、ページ日付 **December 16, 2025**）は **4/22 の「最新」枠**とは掛け合わない（本ブロックの画像トピックは **API Changelog 上の GPT Image 2／Apr 21**に限定）。
+
+---
