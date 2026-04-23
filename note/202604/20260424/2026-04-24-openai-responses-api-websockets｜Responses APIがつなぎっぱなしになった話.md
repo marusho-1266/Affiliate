@@ -87,7 +87,7 @@
 | **2025-11 前後** | 単一リクエストのクリティカルパス最適化（TTFT 約 45% 改善水準に到達、と記述） |
 | **〜 2026-04 にかけて** | **WebSocket プロトタイプ → 約 2 か月の集中開発 → アルファ → 本番展開**（Codex が Responses API トラフィックの多くを移行） |
 | **2026-04-22** | 本件の**公式ブログ公開**（[Speeding up agentic workflows with WebSockets](https://openai.com/index/speeding-up-agentic-workflows-with-websockets/)） |
-| **2026-04-22** | **同日、法人向けには** workspace agents も別公表（関連するが**別レイヤの話**。詳細は別稿: [ChatGPT に workspace agents](../20260423/2026-04-23-openai-workspace-agents-chatgpt｜カスタムGPTの次にくる「チームで育てる」共有エージェント.md)） |
+
 
 ---
 

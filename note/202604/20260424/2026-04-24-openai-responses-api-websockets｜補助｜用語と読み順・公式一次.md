@@ -50,7 +50,6 @@
 | **〜 2026-04 にかけて** | **WebSocket プロトタイプ → 約 2 か月の集中開発 → アルファ → 本番展開**。Codex が **Responses API トラフィックの多くを WebSocket に移行** | 一次（背景記述） |
 | **2026-04-16** | OpenAI が **Codex** の大型アップデートを公表（[Codex for (almost) everything](https://openai.com/index/codex-for-almost-everything/)） | 文脈 |
 | **2026-04-22** | 本件の**公式ブログ公開**（[Speeding up agentic workflows with WebSockets](https://openai.com/index/speeding-up-agentic-workflows-with-websockets/)） | **一次・本件** |
-| **2026-04-22** | 同日、法人向けに **ChatGPT workspace agents** も別公表（本件とは**別レイヤの話**） | 参考（`note/202604/20260423/` の別稿） |
 
 ---
 
