@@ -640,3 +640,40 @@
 - **旧「The new ChatGPT Images」**（[OpenAI 同一URL](https://openai.com/index/new-chatgpt-images-is-here/)、ページ日付 **December 16, 2025**）は **4/22 の「最新」枠**とは掛け合わない（本ブロックの画像トピックは **API Changelog 上の GPT Image 2／Apr 21**に限定）。
 
 ---
+
+## 調査 2026-04-23 12:00 （JST）
+
+**調査日 D＝2026-04-23。** `news-recency-policy.md` により、新規トピックおよび `### note底稿の続報` の主出典は **JST で 2026-04-22 または 2026-04-23** に公開（ページ記載または HTML メタ `publishedDate`）されたもの。**OpenAI** の workspace agents／WebSocket 記事は **April 22, 2026**、**TechCrunch** の Chrome 企業向け記事は **April 22, 2026 10:30 AM PDT**、**Microsoft Security Blog** はメタ **20260422**、**The Verge** の CISA 記事は **Apr 22, 2026, 4:57 PM UTC** を確認。
+
+### 新規トピック
+
+#### AI・業務自動化
+
+- **OpenAI が ChatGPT に「workspace agents」を導入 — GPTs の進化形として、Codex 基盤でクラウド上の共有エージェントが複雑・長時間ワークフローを実行、Business／Enterprise／Edu／Teachers でリサーチプレビュー（2026年5月6日までは無料など価格方針も明記）** — 出典: [OpenAI](https://openai.com/index/introducing-workspace-agents-in-chatgpt/)（April 22, 2026）
+
+- **OpenAI が Responses API に WebSocket モードを投入 — エージェントループの往復を削減し、エンドツーエンドで最大約 40% の高速化などと説明、Codex 本番トラフィックの大半が WebSocket に移行した例を紹介** — 出典: [OpenAI](https://openai.com/index/speeding-up-agentic-workflows-with-websockets/)（April 22, 2026）
+
+#### エンタープライズ・ブラウザ
+
+- **Google が Chrome を職場向け「AI コワーカー」として強化 — Google Cloud Next の文脈で、企業ユーザー向けにタブ文脈を踏まえた「auto browse」エージェント機能やヒトインザループ、Workspace 米国向け展開、Chrome Enterprise Premium でのシャドウ AI／異常なエージェント活動の検知拡張などを報道** — 出典: [TechCrunch](https://techcrunch.com/2026/04/22/google-turns-chrome-into-an-ai-coworker-for-the-workplace/)（April 22, 2026）
+
+#### AI・セキュリティ・政策
+
+- **Microsoft が公式ブログで「AI が加速する脅威環境」への防御を論じ、Anthropic の Mythos Preview を Project Glasswing 経由で脆弱性発見・防御応答に活用する取り組みなどを説明** — 出典: [Microsoft Security Blog](https://www.microsoft.com/en-us/security/blog/2026/04/22/ai-powered-defense-for-an-ai-accelerated-threat-landscape/)（April 22, 2026／ページメタ `publishedDate: 20260422`）
+
+- **Anthropic Mythos Preview を連邦政府が試用する一方、CISA はアクセスしていない可能性があると Axios 報道を引用して整理 — NSA・商務省などとの対比で政策論点を可視化** — 出典: [The Verge](https://www.theverge.com/policy/916758/anthropic-mythos-preview-cisa-left-out)（Apr 22, 2026, 4:57 PM UTC）
+
+### note底稿の続報
+
+- **Mythos の政府関係で「CISA は Preview に入れていない可能性」という新しい報道軸 — NSA 等の線と並べて読む材料** — **底稿:** `note/202604/20260414/2026-04-14-anthropic-mythos-pentagon-clark｜政権協議と調達訴訟の読み分け.md` / `note/202604/20260420/2026-04-20-nsa-anthropic-mythos-pentagon-axios｜NSAとMythos──「指定」と報道のズレをどう読むか.md`。**続報出典:** [The Verge](https://www.theverge.com/policy/916758/anthropic-mythos-preview-cisa-left-out)（Apr 22, 2026, 4:57 PM UTC）
+
+- **4/16 前後の Codex「職場化」に続き、ChatGPT 側で Codex 駆動の workspace agents がリサーチプレビュー開始 — 底稿の「開発から組織運用へ」の流れの直後のプロダクト動き** — **底稿:** `note/202604/20260417/2026-04-17-openai-codex-major-update｜Codexが「開発の職場」まで広がる更新.md`。**続報出典:** [OpenAI](https://openai.com/index/introducing-workspace-agents-in-chatgpt/)（April 22, 2026）
+
+### メモ（任意）
+
+- **対象範囲:** 直近 8 週間の `note/**` 底稿（`note/Druft/` 除外）。ラジオ台本は本編がある場合は本編を優先。
+- **note 続報（薄）:** `note/202604/20260422/` の SpaceX×Cursor 底稿は、**4/21 掲載の TechCrunch 主出典と同一事件の別稿再掲**が中心のため、本ブロックの `### note底稿の続報` には載せず。
+- **ASP.NET Core Data Protection（CVE-2026-40372）の OOB 修正**は公式系の公開日が **2026-04-21** 寄りに読めるため、**D＝4/23 の「新規トピック」枠（D−1 以降）には入れない**（必要なら別実行で 4/21 調査ブロックに集約済みか確認）。
+
+---
+

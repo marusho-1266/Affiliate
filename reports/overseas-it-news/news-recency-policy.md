@@ -39,4 +39,5 @@
 
 - 読者・文体: `target-persona-product-ai-pm.md`
 - 重複排除: `seen-urls.json`
+- **期限・実務アラート（D−1 以外の採用軸）:** `reports/practical-it-alerts/alerts-policy.md`（ログは `alerts-log.md`。`overseas-it-news` とは別ストリーム）
 

@@ -9,6 +9,7 @@
 | `reports/overseas-it-news/news-log.md` | 本コマンドの**累積レポート**（時系列で追記） |
 | `reports/overseas-it-news/seen-urls.json` | **既出の出典URL**（重複排除用。本コマンドと brief 共通） |
 | `reports/overseas-it-news/news-recency-policy.md` | **掲載日（鮮度）ルール**（新規トピック採用時に**必ず遵守**。実行前に読む） |
+| `reports/practical-it-alerts/*` | **別ストリーム:** 期限・EOS・国内公式など**実務アラート**は `practical-it-alerts` コマンド（本コマンドの D−1 枠に混ぜない） |
 | `reports/note-articles-follow-up-*.md`（任意） | **note 続報の整理表**（有／薄／無の一覧。無くても本コマンドは実行可。追記・別名でもよい） |
 
 初回のみ、上記が無ければ作成する。`seen-urls.json` は `{"urls": ["https://...", ...]}` 形式（配列はユニーク・昇順推奨）。
