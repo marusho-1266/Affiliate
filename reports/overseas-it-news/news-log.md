@@ -677,3 +677,33 @@
 
 ---
 
+## 調査 2026-04-24 12:00 （JST）
+
+**調査日 D＝2026-04-24。** `news-recency-policy.md` により、新規トピックおよび `### note底稿の続報` の主出典は **JST で 2026-04-23 または 2026-04-24** に公開（ページ記載）されたもの。**OpenAI** の GPT-5.5 紹介は **April 23, 2026**、**CNBC** の DeepSeek 記事は **2026/04/24** スラグ、**CNN Business** の Meta 人員再編は **PUBLISHED Apr 23, 2026, 3:58 PM ET** を本文で確認。**CVE-2026-40050**（CrowdStrike LogScale）は NVD の初回公開が **2026-04-21** のため、本ブロックの鮮度条件（D−1 以降）に合わず新規枠は見送り。
+
+### 新規トピック
+
+#### 生成AI・モデル
+
+- **OpenAI が GPT-5.5 を公開 — ChatGPT／API／Codex 向けの「最も賢く直感的」モデル群として位置づけ、スーパーアプリ方向の一段とする説明。Plus／Pro／Enterprise 等へ展開** — 出典: [OpenAI](https://openai.com/index/introducing-gpt-5-5/)（April 23, 2026）
+
+#### 中国系AI・オープンソース
+
+- **DeepSeek が V4 系のプレビュー（V4-Pro／V4-Flash 等）を公表、オープンソースで米欧フロンティアと競合を宣言 — 1 年ぶりの大型アップデート文脈で CNBC が報道** — 出典: [CNBC](https://www.cnbc.com/2026/04/24/deepseek-v4-llm-preview-open-source-ai-competition-china.html)（2026/04/24）
+
+#### 企業・人員
+
+- **Meta が全社の約 10%（おおむそ 8,000 人）のレイオフ、約 6,000 の未充足ポジション取り下げ、AI 向け投資との両立を効率化の理由として従業員向けメモを確認したと報道 — 5 月 20 日付き等** — 出典: [CNN Business](https://www.cnn.com/2026/04/23/tech/meta-layoffs-10-percent-staff-ai)（Apr 23, 2026, 3:58 PM ET）
+
+### note底稿の続報
+
+- **ChatGPT 側の workspace agents や Responses API WebSocket 公開（4/22）の直後、GPT-5.5 が追加ローンチ — OpenAI スタックの公式的な重ね掛け** — **底稿:** `note/202604/20260423/2026-04-23-openai-workspace-agents-chatgpt｜カスタムGPTの次にくる「チームで育てる」共有エージェント.md` / `note/202604/20260424/2026-04-24-openai-responses-api-websockets｜Responses APIがつなぎっぱなしになった話.md` / `note/202604/20260417/2026-04-17-openai-codex-major-update｜Codexが「開発の職場」まで広がる更新.md` / `note/202604/20260415/2026-04-15-openai-gpt-5-4-cyber｜TACとGPT-5.4-Cyberのレイヤ読み分け.md`。**続報出典:** [OpenAI](https://openai.com/index/introducing-gpt-5-5/)（April 23, 2026）
+
+### メモ（任意）
+
+- **対象範囲:** 直近 8 週間の `note/**` 底稿（`note/Druft/` 除外）。ラジオ台本は本編がある場合は本編を優先。
+- **鮮度で未採用:** **CrowdStrike LogScale / CVE-2026-40050** は NVD 初回 **2026-04-21** のため、**D＝4/24** の新規枠（D−1＝4/23 以降）に合わない。ベンダ勧告の本文に **4/23 以降の追記日**が明記されれば、別実行で再採用可能。
+- **note 続報（薄）:** 他底稿（Mythos・Rapidus・Cerebras・SpaceX/Cursor 等）は **4/23 JST 以降の新規主出典**が本回条件と**別事件**で揃うまで保留、または前回までと同一の整理のみ。
+
+---
+
