@@ -707,3 +707,33 @@
 
 ---
 
+## 調査 2026-04-25 12:00 （JST）
+
+**調査日 D＝2026-04-25。** `news-recency-policy.md` により、新規トピックおよび `### note底稿の続報` の主出典は **JST で 2026-04-24 または 2026-04-25** に公開（ページ記載）されたもの。**TechCrunch** の Google×Anthropic 記事は **April 24, 2026 11:00 AM PDT**（JST では 4/25 早朝）、**CNN Business** の Microsoft 記事は **PUBLISHED Apr 24, 2026, 1:20 PM ET**、**SiliconANGLE** の AWS×Meta 記事は **UPDATED 19:12 EDT / APRIL 24 2026** を確認。Bloomberg 経由の数値・条件は TechCrunch 本文内の要約に依存するため、主出典は同 TechCrunch とした。
+
+### 新規トピック
+
+#### 生成AI・資本・インフラ
+
+- **Google（Alphabet）が Anthropic に最大約400億ドル規模の投資・コンピュート供与を計画 — 即時100億ドル・評価額3500億ドル、条件達成で追加300億ドル、Google Cloud から5年で5ギガワット級の容量拡張などと報道** — 出典: [TechCrunch](https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/)（April 24, 2026 11:00 AM PDT）
+
+#### クラウド・半導体・AIインフラ
+
+- **AWS と Meta が複数年・数十億ドル規模のインフラ契約 — Meta が数千万規模の Graviton コア利用権を取得し、エージェント型 AI の CPU 集約ワークロード向けと説明、追加オプションあり** — 出典: [SiliconANGLE](https://siliconangle.com/2026/04/24/aws-inks-multibillion-dollar-ai-infrastructure-deal-meta/)（UPDATED APRIL 24 2026 19:12 EDT）
+
+#### 企業・人員
+
+- **Microsoft が米国従業員向けに初の任意退職プログラム — 対象は米国のおおむね7%（年齢＋勤続年数が70以上など条件）、シニアディレクター以下、5月7日に詳細通知などと報道** — 出典: [CNN Business](https://www.cnn.com/2026/04/24/tech/microsoft-voluntary-buyouts-us-employees)（PUBLISHED Apr 24, 2026, 1:20 PM ET）
+
+### note底稿の続報
+
+- **NEC 協業公表（4/23–24）の直後に、Google 側の大型投資・クラウド容量の枠組みが報道され、Anthropic の資本・計算資源の地図が一段更新 — 「日本拠点初パートナー」読みとセットでインフラ多角化を追う材料** — **底稿:** `note/202604/20260424/2026-04-24-nec-anthropic-enterprise-ai｜NECがAnthropicの「日本拠点初のグローバルパートナー」になった話.md` / `note/202604/20260414/2026-04-14-anthropic-mythos-pentagon-clark｜政権協議と調達訴訟の読み分け.md` / `note/202604/20260420/2026-04-20-nsa-anthropic-mythos-pentagon-axios｜NSAとMythos──「指定」と報道のズレをどう読むか.md`。**続報出典:** [TechCrunch](https://techcrunch.com/2026/04/24/google-to-invest-up-to-40b-in-anthropic-in-cash-and-compute/)（April 24, 2026 11:00 AM PDT）
+
+### メモ（任意）
+
+- **対象範囲:** 直近 8 週間の `note/**` 底稿（`note/Druft/` 除外）。ラジオ台本は本編がある場合は本編を優先。
+- **note 続報（薄）:** Workspace agents／WebSocket／GPT-5.5 底稿は **4/24 調査ブロックで同一主出典（OpenAI）済み**のため本回は追加せず。Cerebras・Rapidus・SpaceX/Cursor 等は **本回の新規主出典と別事件**で未採用または前回までの整理のみ。
+- **鮮度で未採用:** **OpenAI Privacy Filter**（公式 **April 22, 2026**）は **D＝4/25** の D−1 基準（4/24 以降）に合わない。
+
+---
+
