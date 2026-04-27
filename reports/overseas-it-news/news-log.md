@@ -737,3 +737,87 @@
 
 ---
 
+## 調査 2026-04-26 12:00 （JST）
+
+**調査日 D＝2026-04-26。** `news-recency-policy.md` により、新規トピックおよび `### note底稿の続報` の主出典は **JST で 2026-04-25 または 2026-04-26** に公開（ページ記載）されたもの。**Reuters** の DeepRoute 記事は **BEIJING, April 25 (Reuters)**、OpenAI 謝罪は **April 25 (Reuters)**、**The Verge** の NSB 記事は **Apr 25, 2026, 7:20 PM UTC**（JST では 4/26 早朝）、**Economic Times** のインド財務相コメントは **Last Updated: Apr 26, 2026, 04:37:43 PM IST** を確認。
+
+### 新規トピック
+
+#### 自動運転・モビリティ
+
+- **中国の DeepRoute.ai が北京モーターショー横の会見で、補助運転システム搭載車が30万台超、年内にさらに約100万台へ拡大する見通しなどと説明 — Reuters が通信社記事として報道** — 出典: [Reuters](https://www.reuters.com/world/asia-pacific/chinas-deeprouteai-says-over-300000-vehicles-use-its-advanced-driving-system-2026-04-25/)（April 25, 2026）
+
+#### AI・ガバナンス・安全
+
+- **OpenAI の Sam Altman が、BC 州 Tumbler Ridge の学校銃撃事件に関し、容疑者に紐づく ChatGPT アカウントを停止していたが当局に通報しなかったことについて道義的責任を認め、首脳会談姿勢や再発防止の協力に言及 — Reuters が通信社記事として報道** — 出典: [Reuters](https://www.reuters.com/sustainability/society-equity/openai-chief-apologizes-not-reporting-shooting-suspect-police-2026-04-25/)（April 25, 2026）
+
+#### 科学政策・研究投資
+
+- **トランプ政権が National Science Board（国家科学審議会）の委員の解任に踏み切ったと、複数報道を The Verge が整理 — NSF 資金・政策勧告枠の政治化懸念が焦点** — 出典: [The Verge](https://www.theverge.com/science/918769/trump-fires-the-entire-national-science-board)（Apr 25, 2026, 7:20 PM UTC）
+
+### note底稿の続報
+
+- **Mythos を「戦争に匹敵する」規模のサイバー脅威と位置づけ、インド政府が Anthropic・米当局とエンゲージを強化し、銀行・Nasscom 等の文脈で対応を説明 — 同国の上級閣僚発言を英語圏向け要約** — **底稿:** `note/202604/20260410/2026-04-10-Mythos｜米財務省・FRBと大行CEO会合報道の読み分け.md` / `note/202604/20260414/2026-04-14-anthropic-mythos-pentagon-clark｜政権協議と調達訴訟の読み分け.md` / `note/202604/20260420/2026-04-20-nsa-anthropic-mythos-pentagon-axios｜NSAとMythos──「指定」と報道のズレをどう読むか.md`。**続報出典:** [The Economic Times](https://economictimes.indiatimes.com/tech/artificial-intelligence/threat-from-anthropics-mythos-as-big-as-war-nirmala-sitharaman/articleshow/130530530.cms)（Last updated Apr 26, 2026, 4:37 PM IST）
+
+### メモ（任意）
+
+- **対象範囲:** 直近 8 週間の `note/**` 底稿（`note/Druft/` 除外）。ラジオ台本は本編がある場合は本編を優先。
+- **同一事件:** Tumbler Ridge 関連は **The Verge（Apr 25 付の Altman 記事）** も存在するが、**Reuters 通信社**を主出典に集約（`seen-urls.json` には Verge の同事件 URL は未追加）。
+- **note 続報（薄）:** `note/202604/20260426/2026-04-26-aws-meta-graviton-infrastructure-deal…md` など **Meta×AWS / Graviton** は、**4/25 調査ブロックの SiliconANGLE 主出典と同一事件**のため、本回の新規枠は追加せず。Workspace agents／Google×Anthropic 投資 等も前回までで同一主出典済み。
+
+---
+
+## 調査 2026-04-27 12:00 （JST）
+
+**調査日 D＝2026-04-27。** `news-recency-policy.md` により、新規トピックおよび `### note底稿の続報` の主出典は **JST で 2026-04-26 または 2026-04-27** に公開（ページ記載）されたもの。**TechCrunch** の Project Deal は **Published: 2026-04-25T21:43:37+00:00**（JST **4/26 早朝**）、Cohere×Aleph Alpha 解説は **Published: 2026-04-25T16:00:00+00:00**（JST **4/26 1:00**）を確認。**国内（日本）:** プレスリース・時事通信の **会社発表（シンカ「カイクラ AIナレッジ」）**は **掲載日 2026-04-22**、**提供開始予定は 2026-04-27** だが、鮮度ルールは**記事／PRの公開日**基準のため本ブロックの新規枠には入れず、メモに整理。
+
+### 新規トピック
+
+#### 生成AI・エンタープライズ
+
+- **Anthropic が社内実験「Project Deal」を公表 — 従業員のエージェント同士が実物取引を交渉する分類広告型マーケットのパイロット、186 件・計 4,000 ドル超の取引、モデル格差と交渉結果の知覚ギャップなどを報告 — TechCrunch が詳報** — 出典: [TechCrunch](https://techcrunch.com/2026/04/25/anthropic-created-a-test-marketplace-for-agent-on-agent-commerce/)（Published 2026-04-25T21:43:37+00:00；JST では 4/26）
+
+- **Cohere とドイツの Aleph Alpha が合併し「欧米横断」の企業・政府向けソブリン AI を掲げる構想 — 企業価値・Schwarz Group 系列の資本・当局・株主承認待ちなどを整理した解説記事** — 出典: [TechCrunch](https://techcrunch.com/2026/04/25/why-cohere-is-merging-with-aleph-alpha/)（Published 2026-04-25T16:00:00+00:00；JST では 4/26）
+
+### メモ（任意）
+
+- **国内IT（日本）調査:** **株式会社シンカ**の「カイクラ AIナレッジ」（社内ドキュメント限定 RAG 型チャット）— [PR TIMES](https://prtimes.jp/main/html/rd/p/000000277.000016795.html)・[時事ドットコム転載](https://www.jiji.com/jc/article?g=prt&k=000000277.000016795)の**ページ日付は 2026-04-22**、**サービス提供開始は 2026-04-27 予定**。本コマンドの **D−1＝4/26 以降の主出典**ルールに合わせ、**新規トピックには未採用**（**4/27 以降に日付の更新版公式ページや報道**が出た再実行で再検討可）。
+- **官公庁・大手メディア（国内）:** **経済産業省**の [4/24 中小企業白書 閣議決定](https://www.meti.go.jp/press/2026/04/20260424005/20260424005.html) 等は **4/24 公開**のため、**D＝4/27** の新規枠（D−1＝4/26 以降）外。**デジタル庁**単独の **4/26–27 新規**の人工知能プレスは、本回の公開ウェブ検索では**主出典採用可能な1本に限定できず**。
+- **note 続報:** 直近 8 週間の `note/**`（`note/Druft/` 除外）をざっと走査。Project Deal・Cohere 合併は **NEC×Anthropic 底稿**と接続可能だが、**新規主出典が `seen-urls.json` 済みの同一週の Anthropic 投資枠**と重なる論点もあり、**本ブロックでは `### note底稿の続報` を立てず**（**無**扱い）。
+
+---
+
+## 調査 2026-04-28 12:00 （JST）
+
+**調査日 D＝2026-04-28。** `news-recency-policy.md` により、新規トピックおよび `### note底稿の続報` の主出典は **JST で 2026-04-27 または 2026-04-28** に公開（ページ記載）されたもの。**Business Insider** の OpenAI 原則解説は **2026-04-27T04:13:16.706Z**、**Reuters** の北京モーターショー寄稿は **HONG KONG, April 27 (Reuters Breakingviews)**、**Denso／Rohm** は **TOKYO, April 27 (Reuters)**、**Techmeme** の Windows K2 リードは **April 27, 2026, 4:05 AM**（同サイトの米東部時刻表記）を確認。**OpenAI** 公式「Our principles」はページ上 **April 26, 2026**（タイムゾーン不明のため保守的扱い）で、本ブロックの新規枠では **4/27 付の解説記事**を主出典にした。**WIRED／Ars Technica** 経由の Palantir 内部議論記事は `article:published_time` **2026-04-25T10:49:52+00:00**（JST **4/25**）のため **D−1 基準外**。
+
+### 新規トピック
+
+#### AI・ガバナンス・競争
+
+- **OpenAI がサム・アルトマン名義で運営原則を大幅更新 — 2018 年チャーターとの差分として、AGI への言及減少、他社に譲歩する競争観からの転換、自律的コミット表現の弱まりなどが論点化 — Business Insider が公式投稿（日曜）を踏まえ解説** — 出典: [Business Insider](https://www.businessinsider.com/openai-updated-principles-three-key-changes-competition-agi-anthropic-2026-4)（2026-04-27T04:13:16.706Z）
+
+#### モビリティ・スマートカー
+
+- **北京モーターショー前後で、華為の運転支援・車載 AI エージェント、CATL・地平線などサプライヤーが主役化 — 欧州メーカーの現地パートナーシップや投資規模の話題を Breakingviews が整理** — 出典: [Reuters](https://www.reuters.com/commentary/breakingviews/tech-steals-stage-beijing-auto-show-2026-04-27/)（April 27, 2026）
+
+#### 半導体・産業
+
+- **デンソーが Rohm への買収提案で合意に至らず撤退も検討と表明 — EV・データセンター向けパワー半導体を巡る統合構想の行方** — 出典: [Reuters](https://www.reuters.com/world/asia-pacific/denso-says-considers-ending-rohm-pursuit-acquisition-talks-stall-2026-04-27/)（April 27, 2026）
+
+#### OS・プラットフォーム
+
+- **Microsoft の「Windows K2」構想が報道 — Windows 11 の AI 過多・肥大化・性能・信頼性への不満への対応として 2026〜2027 年にかけ進める継続的イニシアティブと説明、単体 OS リリースではないとされる — Techmeme が Windows Central（Zac Bowden）を起点に要約** — 出典: [Techmeme](https://www.techmeme.com/260427/p8)（April 27, 2026, 4:05 AM ET 表記）
+
+### note底稿の続報
+
+- **OpenAI が運営原則を 2018 年以来の大きな改定に踏み込み、競争・繁栄・レジリエンス等の言い回しが「法人としての立ち位置」とセットで読み替え対象に — 調達・法人寄り製品の底稿と接続** — **底稿:** `note/202604/20260402/OpenAI約1220億ドル調達を公式ベースで整理｜computeとパートナーが主役.md` / `note/202604/20260416/2026-04-16-openai-spud-enterprise-pivot｜OpenAI「Spud」と法人寄りシフト.md`。**続報出典:** [Business Insider](https://www.businessinsider.com/openai-updated-principles-three-key-changes-competition-agi-anthropic-2026-4)（2026-04-27T04:13:16.706Z）
+
+### メモ（任意）
+
+- **対象範囲:** 直近 8 週間の `note/**` 底稿（`note/Druft/` 除外）。ラジオ台本は本編がある場合は本編を優先。
+- **note 続報（薄／無）:** `note/202604/20260425/2026-04-25-google-anthropic-up-to-40b-investment…`（本編）、`note/202604/20260426/2026-04-26-aws-meta-graviton…`、Anthropic／Mythos 系は **いずれも 4/27 以降の新規主出典が同一事件・`seen-urls.json` 済みまたは鮮度外**で、本ブロックでは `### note底稿の続報` を OpenAI 原則以外には立てず。
+- **参考（新規枠外）:** OpenAI 公式 [Our principles](https://openai.com/index/our-principles)（**April 26, 2026** 表記）。Palantir 内部議論（WIRED 原稿の Ars 再掲）は **4/25 UTC 公開**のため本調査の D−1 基準外。
+
+---
+
