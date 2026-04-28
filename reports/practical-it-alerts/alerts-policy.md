@@ -1,6 +1,6 @@
 # 実務ITアラート調査 — 採用ポリシー
 
-`practical-it-alerts`（`/practical-it-alerts`）は **`alerts-log.md` のトピック**について、海外ITニュース速報（`overseas-it-news` の **D−1 鮮度**）とは**別軸**で採用基準を固定する。
+`practical-it-alerts`（`/practical-it-alerts`）は **`alerts-log.md` のトピック**について、ITニュース速報（`overseas-it-news` の **D−1 鮮度**・海外・日本を問わず）とは**別軸**で採用基準を固定する。
 
 ## 目的
 
@@ -28,10 +28,10 @@
 
 | ストリーム | 主な問い | 鮮度の考え方 |
 |------------|----------|----------------|
-| `overseas-it-news` | いま世界で何が起きたか | 主出典は **JST D−1 以降**（`news-recency-policy.md`） |
+| `overseas-it-news` | いま何が起きたか（**海外・日本**） | 主出典は **JST D−1 以降**（`news-recency-policy.md`） |
 | `practical-it-alerts` | 読者は**いつまでに何を確認すべきか** | **期限・更新の実務上の近さ**（D−1 必須ではない） |
 
 ## 関連ファイル
 
-- 海外速報ログ: `reports/overseas-it-news/news-log.md`
+- ITニュース速報ログ（海外・日本）: `reports/overseas-it-news/news-log.md`
 - 重複排除（本ストリーム）: `reports/practical-it-alerts/seen-urls.json`

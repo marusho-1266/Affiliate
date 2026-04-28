@@ -1,6 +1,6 @@
-# 海外ITニュース調査ログ（累積）
+# 海外・日本 ITニュース調査ログ（累積）
 
-このファイルは `**/overseas-it-news**` の実行ごとに**追記**する。  
+このファイルは `**/overseas-it-news**` の実行ごとに**追記**する。**調査範囲**は **海外（主に英語圏）に加え日本国内**の IT・テック（公開ウェブで確認できる官公庁・報道・企業発表など）。  
 **重複排除**は `seen-urls.json` に記録した出典URLで行う（同じURLの記事は再掲しない）。
 
 **掲載日（鮮度）:** 「新規トピック」の主出典は、調査日を **D**（本見出しの日付）としたとき **JST で D−1 以降に公開**されたものを原則とする。詳細は `news-recency-policy.md`。
@@ -818,6 +818,69 @@
 - **対象範囲:** 直近 8 週間の `note/**` 底稿（`note/Druft/` 除外）。ラジオ台本は本編がある場合は本編を優先。
 - **note 続報（薄／無）:** `note/202604/20260425/2026-04-25-google-anthropic-up-to-40b-investment…`（本編）、`note/202604/20260426/2026-04-26-aws-meta-graviton…`、Anthropic／Mythos 系は **いずれも 4/27 以降の新規主出典が同一事件・`seen-urls.json` 済みまたは鮮度外**で、本ブロックでは `### note底稿の続報` を OpenAI 原則以外には立てず。
 - **参考（新規枠外）:** OpenAI 公式 [Our principles](https://openai.com/index/our-principles)（**April 26, 2026** 表記）。Palantir 内部議論（WIRED 原稿の Ars 再掲）は **4/25 UTC 公開**のため本調査の D−1 基準外。
+
+---
+
+## 調査 2026-04-28 18:00 （JST）
+
+**調査日 D＝2026-04-28（継続）。** 同日 **12:00 JST** ブロックで採用済みの主出典と **URL 単位で重複しない**範囲で追加。**Reuters** の Cadence は **April 27 (Reuters)**、**NVD** の CVE-2026-41635 は **NVD Published Date: 04/27/2026**、**SecurityWeek** の OpenSSH は **Published: 2026-04-27T12:29:18+00:00**（JST では同日夜）、**SecurityAffairs** の Itron は **April 27, 2026** を確認。
+
+### 新規トピック
+
+#### EDA・半導体設計
+
+- **Cadence Design Systems が通期売上見通しを引き上げ — AI 向けプロセッサ設計需要が EDA・検証需要をけん引する見通しとして、2026 会計年度売上を約 61.3〜62.3 億ドルレンジに上方修正（従来約 59〜60 億ドル）などと報道、Hexagon 系買収の影響で調整後 EPS 見通しはやや下方なども整理** — 出典: [Reuters](https://www.reuters.com/business/cadence-lifts-annual-revenue-forecast-sustained-ai-chip-design-boom-2026-04-27/)（April 27, 2026）
+
+#### セキュリティ・インフラ
+
+- **Apache MINA に IoBuffer.getObject() 経由の非信頼データ逆シリアル化（CWE-502）で任意コード実行の恐れ（CVE-2026-41635、CVSS 9.8）— 修正版は 2.0.28 / 2.1.11 / 2.2.6 など — NVD が同日登録** — 出典: [NVD](https://nvd.nist.gov/vuln/detail/CVE-2026-41635)（NVD Published Date: 04/27/2026）
+
+- **OpenSSH が認証局の証明書プリンシパルにカンマが含まれる場合のパース不整合により root 相当認証に至りうる脆弱性（CVE-2026-35414、CVSS 8.1）— OpenSSH 10.3 で修正済みとの整理 — Cyera の調査が報道で紹介** — 出典: [SecurityWeek](https://www.securityweek.com/openssh-flaw-allowing-full-root-shell-access-lurked-for-15-years/)（Published: 2026-04-27T12:29:18+00:00）
+
+- **米スマートメーター・ユーティリティ向け機器大手 Itron が、社内 IT の一部への不正アクセス検知（2026-04-13）と対応・当局通知を開示 — 顧客ホスト側への不正は確認されていない旨を SEC 8-K 経由で報道** — 出典: [Security Affairs](https://securityaffairs.com/191360/data-breach/u-s-utility-giant-itron-discloses-a-security-breach.html)（April 27, 2026）
+
+### メモ（任意）
+
+- **対象範囲:** 直近 8 週間の `note/**` 底稿（`note/Druft/` 除外）。ラジオ台本は本編がある場合は本編を優先。
+- **note 続報:** Windows K2・Anthropic Project Deal 等は **同日 12:00 ブロックで既に主出典登録済みまたは論点が重複**のため、本追加ブロックでは **`### note底稿の続報` は立てず**。
+
+---
+
+## 調査 2026-04-28 21:30 （JST）
+
+**調査日 D＝2026-04-28。** `news-recency-policy.md` により、新規トピックおよび `### note底稿の続報` の主出典は **JST で 2026-04-27 または 2026-04-28** に公開（ページ記載）されたもの。**OpenAI** の Microsoft 提携見直し投稿は **April 27, 2026**。**TechCrunch** の Ineffable／Meta は **April 27, 2026（PDT／UTC 表記）** を確認。**SecurityWeek** の CVE-2026-32202 解説は **Published: 2026-04-27T13:09:27+00:00**（JST では同日夜）。**DIGITIMES Asia** の Samsung／HBM4 は記事 ID が **20260428**（REALTIME NEWS）。
+
+### 新規トピック
+
+#### クラウド・提携・法務
+
+- **OpenAI と Microsoft が提携契約を再修正（Microsoft の OpenAI IP／モデル・製品への権利が 2032 年までの非独占ライセンスに変更、OpenAI がどのクラウドでも製品を提供可能に、収益シェアの扱い見直しなどを公式説明 — AWS 絡みの独占抵触リスク回避が報道でも論点）** — 出典: [OpenAI](https://openai.com/index/next-phase-of-microsoft-partnership/)（April 27, 2026）
+
+#### AI・資金調達
+
+- **元 DeepMind の David Silver が主宰する英国の Ineffable Intelligence が約 11 億ドル調達・評価額約 51 億ドル — 強化学習で「人間データなし」の superlearner を目指す構想として報道** — 出典: [TechCrunch](https://techcrunch.com/2026/04/27/deepminds-david-silver-just-raised-1-1b-to-build-an-ai-that-learns-without-human-data/)（10:24 AM PDT · April 27, 2026）
+
+#### データセンター・電力
+
+- **Meta がスタートアップ Reflect Orbital と契約し、衛星経由で地上のソーラーに夜間も赤外線で電力を届ける構想でデータセンター電源を狙うと報道 — 詳細な商用タイムラインは開発途上との整理** — 出典: [TechCrunch](https://techcrunch.com/2026/04/27/meta-inks-deal-for-solar-power-at-night-beamed-from-space/)（Published 2026-04-27T10:00:00+00:00）
+
+#### セキュリティ
+
+- **CVE-2026-32202（Windows Shell／強制 SMB 認証・Net-NTLMv2 窃取が論点）について、不完全パッチ経緯や APT28 などの利用文脈を Akamai 調査ベースで整理 — Microsoft は Exploitation Detected とし 2026 年 4 月更新で修正などと説明** — 出典: [SecurityWeek](https://www.securityweek.com/incomplete-windows-patch-opens-door-to-zero-click-attacks/)（Published: 2026-04-27T13:09:27+00:00）
+
+#### 半導体・メモリ供給
+
+- **Samsung が平沢（Pyeongtaek）ラインの DRAM／HBM4 能力増強を急ぐとの報道 — AI サーバー需要を背景にしたメモリキャパシティ競争が論点（ページ本文は購読制）** — 出典: [DIGITIMES Asia](https://www.digitimes.com/news/a20260428VL209/samsung-hbm4-fab-capacity-dram.html)（REALTIME NEWS／記事 ID に 20260428）
+
+### note底稿の続報
+
+- **Microsoft×OpenAI の提携が「独占終了タイミング」「クラウド横断での製品提供」「収益シェア」まで踏み込んで改定され、調達・クラウド依存の読みに直接効く更新 — OpenAI 公式の同日投稿で一次確認可能** — **底稿:** `note/202604/20260402/OpenAI約1220億ドル調達を公式ベースで整理｜computeとパートナーが主役.md` / `note/202604/20260416/2026-04-16-openai-spud-enterprise-pivot｜OpenAI「Spud」と法人寄りシフト.md`。**続報出典:** [OpenAI](https://openai.com/index/next-phase-of-microsoft-partnership/)（April 27, 2026）
+
+### メモ（任意）
+
+- **対象範囲:** 直近 8 週間の `note/**` 底稿（`note/Druft/` 除外）。ラジオ台本は本編がある場合は本編を優先。
+- **国内（日本）:** **IPA／経産省**のデジタルスキル標準 ver.2.0 は **公式公開が 2026-04-16** のため、本調査の **D−1（4/27）以降の主出典**としては採用していない。
+- **note 続報（無／薄）:** `note/202604/20260427/2026-04-27-windows-k2-initiative｜Windows 11の品質回復をどう読むか.md` は **同日これまでのログで Techmeme 起点が登録済み**で、**4/27〜28 に別の「主出典 URL」として追加できる続報は見つけず**。
 
 ---
 
