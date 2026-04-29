@@ -884,3 +884,40 @@
 
 ---
 
+## 調査 2026-04-29 10:00 （JST）
+
+**調査日 D＝2026-04-29。** `news-recency-policy.md` により、**新規トピック**および **`### note底稿の続報`** の主出典は **JST で 2026-04-28 または 2026-04-29** にページ記載の公開日・掲載日（または Last modified が同日更新と明確なソース）があるものに限定。**OpenAI×Microsoft 提携再修正（4/27 公式）**や **Ineffable 調達（4/27 TechCrunch）**など **4/27 以前の主出典のみ**のトピックは本ブロックでは再掲しない。**CVE-2026-3854** は NVD の初回 **Published** が **2026-03-10** のため、新規枠の主出典は **2026-04-28 掲載の解説記事**とした。
+
+### 新規トピック
+
+#### クラウド・AIインフラ
+
+- **AWS と OpenAI が提携拡大を発表 — OpenAI の最新モデル・Codex・エージェント構築向き製品を Amazon Bedrock に展開、「Bedrock Managed Agents」で OpenAI 推論モデルと AWS 基盤を組み合わせる旨を Amazon 公式が説明（Microsoft 側の非独占化を踏まえた実装面の動きとして報道も追随）** — 出典: [About Amazon (AWS)](https://www.aboutamazon.com/news/aws/bedrock-openai-models)（Published: 2026-04-28T17:00:03+00:00）
+
+#### セキュリティ・サプライチェーン
+
+- **GitHub Enterprise Server 等を対象とした push 操作トークンのサニタイズ不備による RCE（CVE-2026-3854、CWE-77）が注目集める — Wiz 調査・バウンティ経由報告、複数 GHES パッチ版での修正が文脈で紹介（NVD 上の初回 Published は 2026-03-10 のため本枠では紙面掲載 4/28 の解説を主出典化）** — 出典: [Security Affairs](https://securityaffairs.com/191434/security/cve-2026-3854-github-flaw-enables-remote-code-execution.html)（April 28, 2026）
+
+- **LiteLLM プロキシの認証前 SQL インジェクション（CVE-2026-42208）が実害型で悪用 — 1.83.7 への更新・露出キーローテーション等が推奨される整理** — 出典: [BleepingComputer](https://www.bleepingcomputer.com/news/security/hackers-are-exploiting-a-critical-litellm-pre-auth-sqli-flaw/)（April 28, 2026）
+
+#### 国内・製造IT
+
+- **イビデンが 4 月 13 日不具合のコーポレートサイトを完全復旧と発表 — 外部 Web サーバーへの不正アクセスで無関係ページ表示、サイト外への侵入やランサム痕跡なし・個人情報・社内停止なしと説明** — 出典: [Reuters Japan](https://jp.reuters.com/markets/global-markets/2OJSNGWJYRPD7OT4ZDOXF3JDKE-2026-04-28/)（［東京 28日 ロイター］表記）
+
+#### 医療・セキュリティ（国内報道）
+
+- **日本医科大学武蔵小杉病院のランサムウェア被害（2026年1月）と VPN 経路・ナースコール経由の個人情報取り扱い、公表の経緯・規模修正などを日経クロステックが整理（同連載内で医療機関の社内統制の論点にも触れる構成）** — 出典: [日経クロステック (xTECH)](https://xtech.nikkei.com/atcl/nxt/mag/nnw/18/041800012/041700322/)（Published: 2026-04-29T07:00:00+09:00）
+
+### note底稿の続報
+
+- **提携「非独占化」の直後に、AWS×OpenAI が Bedrock 上でのモデル・Codex・マネージドエージェント提供を公式化 — 4/27 公式改定の「どのクラウドでも提供」を実行面で裏付ける動き** — **底稿:** `note/202604/20260428/2026-04-28-microsoft-openai-partnership-amendment｜プライマリは残し独占は外した.md` / `note/202604/20260402/OpenAI約1220億ドル調達を公式ベースで整理｜computeとパートナーが主役.md`。**続報出典:** [About Amazon (AWS)](https://www.aboutamazon.com/news/aws/bedrock-openai-models)（Published: 2026-04-28T17:00:03+00:00）
+
+### メモ（任意）
+
+- **対象範囲:** 直近 8 週間の `note/**`（`note/Druft/` 除外）。ラジオ台本は本編がある場合は本編を優先。
+- **鮮度外（参考）:** **アルプスアルパイン**の VPN 経由不正アクセス公表は **プレス日が 2026-04-27** のため、**D＝4/29** の **D−1（4/28）以降主出典**ルールでは新規枠から外した（**4/28 掲載の報道**のみでは一次の「公表日」と別暦になりうるため保守的に省略）。
+- **省略（同一事件・既掲）:** **CVE-2026-32202** 不完整パッチ解説は **直近ログで SecurityWeek を既登録**済みのため本ブロックでは再掲なし。
+- **note 続報（薄／無）:** Anthropic Project Deal・Mythos・Rapidus・Cursor/SpaceX ほか **4/28 以降の別主出典 URL**は、`seen-urls.json` 既出または **4/27 以前のみ**で追加せず。
+
+---
+
