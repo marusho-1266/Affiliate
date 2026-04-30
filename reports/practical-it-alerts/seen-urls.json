@@ -2,9 +2,11 @@
   "urls": [
     "https://developer.chrome.com/blog/chrome-two-week-release",
     "https://learn.microsoft.com/ja-jp/lifecycle/announcements/october-14-2025-products-end-of-support",
+    "https://openai.com/index/introducing-workspace-agents-in-chatgpt",
     "https://support.microsoft.com/ja-jp/topic/e2b43f9f-b424-42df-bc6a-8476db65ab2f",
     "https://support.microsoft.com/ja-jp/topic/windows-%E3%82%BB%E3%82%AD%E3%83%A5%E3%83%AA%E3%83%86%E3%82%A3-%E3%82%A2%E3%83%97%E3%83%AA%E3%81%AE%E3%82%BB%E3%82%AD%E3%83%A5%E3%82%A2-%E3%83%96%E3%83%BC%E3%83%88%E8%A8%BC%E6%98%8E%E6%9B%B8%E3%81%AE%E6%9B%B4%E6%96%B0%E7%8A%B6%E6%85%8B-5ce39986-7dd2-4852-8c21-ef30dd04f046",
     "https://techcommunity.microsoft.com/blog/windows-itpro-blog/act-now-securpire-in-june-2026/4426856",
-    "https://www.ipa.go.jp/security/security-action/mailnews/2026_4.html"
+    "https://www.ipa.go.jp/security/security-action/mailnews/2026_4.html",
+    "https://www.ipa.go.jp/security/security-alert/2026/0422-jre.html"
   ]
 }

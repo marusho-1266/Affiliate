@@ -921,3 +921,39 @@
 
 ---
 
+## 調査 2026-04-30 12:00 （JST）
+
+**調査日 D＝2026-04-30。** `news-recency-policy.md` により、**新規トピック**および **`### note底稿の続報`** の主出典は **JST で 2026-04-29 または 2026-04-30** にページ記載の公開日・掲載日（または通信社電文日付）があるものに限定。**TechCrunch** の Anthropic 観測記事は **5:07 PM PDT · April 29, 2026**（**JST では 4/30 午前**）。**Reuters** の DeepSeek／Huawei 特集は **April 29 (Reuters)** 電文。**Nikkei Asia** の東京エレクトロン稿は **April 29, 2026 02:40 JST**。**Reuters** の豪 APRA 関連は **SYDNEY, April 30 (Reuters)**。
+
+### 新規トピック
+
+#### 資金調達・AI企業
+
+- **Anthropic が新たに約500億ドル規模の調達案を検討し、企業価値は約8500億〜9000億ドル帯との観測が複数筋から報じられる — 売上ラン・レートが急拡大していることや Claude Code／Cowork などが背景として説明、5月の取締役会で方針を確定する見込みなど** — 出典: [TechCrunch](https://techcrunch.com/2026/04/29/sources-anthropic-could-raise-a-new-50b-round-at-a-valuation-of-900b/)（5:07 PM PDT · April 29, 2026；JST 4/30 早朝）
+
+#### AI・地政学・半導体
+
+- **DeepSeek の V4 と Huawei Ascend 950 向け最適化を軸に、中国が Nvidia 依存を減らす「並行の AI エコシステム」を組む動きと、Meta×Manus 買収の中国側秩序解消が同じ長期インタビュー稿で接続される論旨 — Reuters が北京発の特集として整理** — 出典: [Reuters](https://www.reuters.com/technology/artificial-intelligence/deepseek-bets-huawei-china-pushes-end-reliance-nvidia-2026-04-29/)（April 29, 2026）
+
+#### 半導体製造装置・供給網（国内報道）
+
+- **台湾の裁判所判断などを手がかりに、東京エレクトロン子会社出身者による TSMC 機密流出疑惑が、主要顧客との関係や競争環境に与えうる影響として整理 — Nikkei Asia が英語で報道** — 出典: [Nikkei Asia](https://asia.nikkei.com/business/tech/semiconductors/tokyo-electron-s-close-ties-with-tsmc-at-risk-after-chip-tech-leak)（April 29, 2026 02:40 JST）
+
+#### 規制・金融セキュリティ
+
+- **豪州金融監督当局 APRA が銀行向け書簡で、ベンダ説明頼みの AI リスク管理や取締役会の技術リテラシー不足などを指摘 — 「フロンティア AI」として Mythos 等がサイバー攻撃の規模・速度を押し上げうるとの警告が通信社で紹介** — 出典: [Reuters](https://www.reuters.com/legal/government/australia-calls-stronger-ai-risk-controls-financial-firms-2026-04-30/)（SYDNEY, April 30, 2026）
+
+### note底稿の続報
+
+- **Google の大型投資・計算容量の枠組みに続き、追加ラウンド観測で評価帯がさらに上振れする公算が報じられ、Anthropic の資本・需要サイドの読みを更新する材料** — **底稿:** `note/202604/20260425/2026-04-25-google-anthropic-up-to-40b-investment｜ライバル同士をつなぐ資本とギガワット.md` / `note/202604/20260424/2026-04-24-nec-anthropic-enterprise-ai｜NECがAnthropicの「日本拠点初のグローバルパートナー」になった話.md`。**続報出典:** [TechCrunch](https://techcrunch.com/2026/04/29/sources-anthropic-could-raise-a-new-50b-round-at-a-valuation-of-900b/)（5:07 PM PDT · April 29, 2026）
+
+- **Mythos を「フロンティア AI」のリスク例として金融監督の公式文脈に置いた APRA の警鐘 — 米国の調達・指定議論と並べて「規制当局がどの語彙で神経を尖らせているか」の続報** — **底稿:** `note/202604/20260410/2026-04-10-Mythos｜米財務省・FRBと大行CEO会合報道の読み分け.md` / `note/202604/20260414/2026-04-14-anthropic-mythos-pentagon-clark｜政権協議と調達訴訟の読み分け.md` / `note/202604/20260420/2026-04-20-nsa-anthropic-mythos-pentagon-axios｜NSAとMythos──「指定」と報道のズレをどう読むか.md`。**続報出典:** [Reuters](https://www.reuters.com/legal/government/australia-calls-stronger-ai-risk-controls-financial-firms-2026-04-30/)（SYDNEY, April 30, 2026）
+
+### メモ（任意）
+
+- **対象範囲:** 直近 8 週間の `note/**` 底稿（`note/Druft/` 除外）。ラジオ台本は本編がある場合は本編を優先。
+- **鮮度外（参考）:** **Bloomberg** の Google×米国防総省（4/28 付）、**Reuters** の Meta×Manus 中国当局審査解説（**April 28, 2026** 電文）、**BleepingComputer** の Vimeo／Anodot 波及（**April 28, 2026** 掲載）はいずれも **D−1（4/29）未満の主出典日**のため新規枠に未採用。
+- **note 続報（薄）:** AWS Bedrock×OpenAI 底稿は **4/29 調査ブロックの About Amazon 主出典が最新**のため追加せず。DeepSeek V4 単体底稿はリポジトリ内に本編が薄く、本回は **Reuters 深掘り稿**を新規トピックに集約。
+
+---
+
