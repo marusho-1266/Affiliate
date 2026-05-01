@@ -1,4 +1,4 @@
-# GitHub Copilot code review｜AIのレビューは、Actionsの請求にもつながる
+# 「ITニュース」｜GitHub Copilot code review｜AIのレビューは、Actionsの請求にもつながる
 
 ## はじめに
 
