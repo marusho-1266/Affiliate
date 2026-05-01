@@ -78,3 +78,29 @@
 - **IPA:** 「GW に関する注意喚起」単独ページは **メールニュース 2026_4** と同一キャンペーンのためトピック化せず。
 
 ---
+
+## 調査 2026-05-01 16:30 （JST）
+
+調査の前提: 直近8週間の `note/**`（`note/Druft/` 除外）を目安に、KB5062713・5087130 の変更履歴はライブ確認のみ（2026年4月末以降の追記なし）。GitHub Copilot の発効日・請求変更と IPA の Microsoft 月例（悪用確認済み CVE）を優先。
+
+### トピック
+
+#### SaaS・開発プラットフォーム
+
+- **GitHub Copilot Free／Pro／Pro+ の対話データとモデル学習（規約・プライバシー更新の発効）** — **2026年4月24日**より、オプトアウトしない限り Copilot Free／Pro／Pro+ の対話データ（入力・出力・コード断片・コンテキスト等）がモデル改善に利用されうる方針が**発効**（Business／Enterprise は対象外）。**読者アクション:** `github.com/settings/copilot` の **Privacy で「AI モデルのトレーニングへのデータ利用」を希望どおりか確認**（既にオプトアウト済みなら偏好は維持と公式記載）。**期限・根拠日:** **発効 2026-04-24**（変更告知 **2026-03-25**）。**出典:** [GitHub Changelog](https://github.blog/changelog/2026-03-25-updates-to-our-privacy-statement-and-terms-of-service-how-we-use-your-data/)
+
+- **GitHub Copilot code review と GitHub Actions 分の課金開始** — **2026年6月1日**から、プライベートリポジトリ上の Copilot code review は **GitHub Actions の所要分がプランに含まれる枠から消費**され、超過分は通常の Actions 料金（公開リポは無償のまま）。Copilot Pro／Pro+／Business／Enterprise が対象。**読者アクション:** **請求管理者が Actions／Copilot の利用見込み・予算・上限を 6/1 前に確認**し、レビュー運用チームへ共有。**期限・根拠日:** **2026-06-01**（告知 **2026-04-27**）。**出典:** [GitHub Changelog](https://github.blog/changelog/2026-04-27-github-copilot-code-review-will-start-consuming-github-actions-minutes-on-june-1-2026/)
+
+#### 国内・ベンダ
+
+- **Microsoft 製品の脆弱性対策（2026年4月月例・IPA）** — **2026年4月15日**公表の月例に含まれる **CVE-2026-32201（SharePoint Server なりすまし）について Microsoft が悪用を確認済み**とIPAが整理。**読者アクション:** Windows Update／更新管理プロセスで **当該月例の適用状況を棚卸し**し、未適用なら**優先展開**。**期限・根拠日:** 注意喚起 **公開 2026-04-15**（対処は「至急適用」の公式表現ベース）。**出典:** [IPA — Microsoft 製品の脆弱性対策について(2026年4月)](https://www.ipa.go.jp/security/security-alert/2026/0415-ms.html)
+
+### note底稿のフォロー
+
+- **GitHub 規約・Copilot データ利用** — 底稿は **2026/4/24** 発効の学習利用を整理済み。**フォロー出典:** [GitHub Changelog（Copilot code review の Actions 課金）](https://github.blog/changelog/2026-04-27-github-copilot-code-review-will-start-consuming-github-actions-minutes-on-june-1-2026/)（**2026-04-27** 公開、**2026-06-01** からプライベートリポで Actions 分を消費）。**底稿:** `note/202603/20260327/【海外IT速報】GitHub規約更新（Copilotデータ利用方針）を実務目線で整理.md`
+
+### メモ（任意）
+
+- **対象範囲:** 直近 8 週間の `note/**`。セキュアブート KB は変更履歴に新規追記なし（既出 URL のためトピック再掲なし）。
+
+---

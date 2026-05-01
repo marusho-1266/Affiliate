@@ -957,3 +957,42 @@
 
 ---
 
+## 調査 2026-05-01 19:00 （JST）
+
+**調査日 D＝2026-05-01。** `news-recency-policy.md` により、**新規トピック**および **`### note底稿の続報`** の主出典は **JST で 2026-04-30 または 2026-05-01** にページ記載の公開日・掲載日（または電文日／KEV 追記日）があるものに限定。**OpenAI** の Advanced Account Security は公式 **April 30, 2026**。**The Verge** の Claude Security は **Posted Apr 30, 2026 at 5:00 PM UTC**（**JST では 5/1 午前**）。**BleepingComputer** の cPanel 記事は **April 30, 2026**。**DIGITIMES Asia** の OpenAI／Stargate は記事 ID **20260430**。**OpenAI** のインフラ総括ブログ [Building the compute infrastructure…](https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age/) は **April 29, 2026** のため、本ブロックの「10GW 超え」の主出典は **4/30 の産業メディア**に寄せた。
+
+### 新規トピック
+
+#### アカウントセキュリティ・認証
+
+- **OpenAI が ChatGPT アカウント向け「Advanced Account Security（AAS）」を任意適用で提供開始 — パスワードログインを止めパスキーまたはセキュリティキーを要求、メール／SMS リカバリ無効化・セッション短縮・ログイン通知などを束ね、Yubico と共同ブランドの YubiKey バンドルも説明 — Trusted Access for Cyber の個人メンバーは **2026年6月1日**から AAS 必須なども明記** — 出典: [OpenAI](https://openai.com/index/advanced-account-security/)（April 30, 2026）
+
+#### AI・エンタープライズセキュリティ
+
+- **Anthropic が法人向けコードベース走査ツール「Claude Security」を Opus 4.7 ベースでグローバルのエンタープライズ顧客へ展開すると報道 — Mythos とは別製品として整理** — 出典: [The Verge](https://www.theverge.com/ai-artificial-intelligence/921198/anthropic-rolls-out-its-codebase-scanning-security-tool-for-businesses)（Posted Apr 30, 2026 at 5:00 PM UTC；JST 5/1 早朝）
+
+#### ホスティング・インフラセキュリティ
+
+- **cPanel／WHM／WP Squared の認証バイパス（CVE-2026-41940）が実害型で悪用され、技術詳細・PoC 公開後の報道が注目を集める — CISA KEV には **2026-04-30** 追加・対応期限 **2026-05-03** の整理あり — 出典: [BleepingComputer](https://www.bleepingcomputer.com/news/security/critical-cpanel-and-whm-bug-exploited-as-a-zero-day-poc-now-available/)（April 30, 2026）（CVE の当局・NVD側では同日の KEV 追記・NVD 更新が確認可能: [NVD](https://nvd.nist.gov/vuln/detail/CVE-2026-41940)）
+
+#### データセンター・電力（産業報道）
+
+- **OpenAI が米国で Stargate の約10ギガワット目標を前倒しで達し、直近90日で3ギガワット超を追加したほか、地域コミュニティ投資の試みなどと並べて報じられる — 記事は購読制要素あり** — 出典: [DIGITIMES Asia](https://www.digitimes.com/news/a20260430VL210/openai-stargate-infrastructure-cost-demand.html)（REALTIME NEWS／記事 ID に 20260430）
+
+### note底稿の続報
+
+- **評価額観測とは別軸で、法人向けのコードベースセキュリティ製品が製品報道として具体化 — Opus 4.7／パートナー論と並べて「売上以外のエンタープライズ提供物」を追う材料** — **底稿:** `note/202604/20260417/2026-04-17-anthropic-claude-opus-4-7｜Opus-4.7とサイバー安全策の一段目.md` / `note/202604/20260424/2026-04-24-nec-anthropic-enterprise-ai｜NECがAnthropicの「日本拠点初のグローバルパートナー」になった話.md`。**続報出典:** [The Verge](https://www.theverge.com/ai-artificial-intelligence/921198/anthropic-rolls-out-its-codebase-scanning-security-tool-for-businesses)（Posted Apr 30, 2026 at 5:00 PM UTC）
+
+- **チャット／開発アカウントのフィッシング耐性・モデル学習除外・サイバー防御プログラムとの接続が公式で一段ずれる — ワークスペース運用や法人ガバナンスの読みに効く** — **底稿:** `note/202604/20260423/2026-04-23-openai-workspace-agents-chatgpt｜カスタムGPTの次にくる「チームで育てる」共有エージェント.md` / `note/202604/20260415/2026-04-15-openai-gpt-5-4-cyber｜TACとGPT-5.4-Cyberのレイヤ読み分け.md`。**続報出典:** [OpenAI](https://openai.com/index/advanced-account-security/)（April 30, 2026）
+
+- **米国内コンピュート確保の見え方が「目標前倒し達成」と産業報道でまとめられ、調達・インフラ底稿の時間軸を補強** — **底稿:** `note/202604/20260402/OpenAI約1220億ドル調達を公式ベースで整理｜computeとパートナーが主役.md` / `note/202604/20260429/2026-04-29-aws-bedrock-openai-codex-managed-agents｜独占を外した翌日にBedrockへ載った.md`。**続報出典:** [DIGITIMES Asia](https://www.digitimes.com/news/a20260430VL210/openai-stargate-infrastructure-cost-demand.html)（REALTIME NEWS／20260430）
+
+### メモ（任意）
+
+- **対象範囲:** 直近 8 週間の `note/**`（`note/Druft/` 除外）。ラジオ台本は本編がある場合は本編を優先。
+- **国内（日本）:** **METI／IPA** の既知施策や **4/28 以前のロイター転載**中心で、**D−1（4/30）以降の独立トピックを大手報道・IR で1本に絞るのが難しく**、本ブロックは海外公式・産業報道を厚めに採用。
+- **鮮度外（参考）:** OpenAI の **10GW** を説明する公式ブログ [Building the compute infrastructure…](https://openai.com/index/building-the-compute-infrastructure-for-the-intelligence-age/) は **April 29, 2026** のため **D＝5/1 の新規枠（4/30・5/1）からは外し**、関連は DIGITIMES（4/30）と AAS（4/30）に分散。
+- **note 続報（薄／無）:** `note/202604/20260430/2026-04-30-anthropic-sources-50b-rumor…` は **調査時点で匿名ソース観測の更新主出典なし**（薄／無）。GitHub Copilot の Actions 課金告知は **`practical-it-alerts` と overseas の用途分立**のため本ログでは再掲せず。
+
+---
+
