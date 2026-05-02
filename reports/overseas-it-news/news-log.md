@@ -996,3 +996,31 @@
 
 ---
 
+## 調査 2026-05-02 12:00 （JST）
+
+**調査日 D＝2026-05-02。** `news-recency-policy.md` により、**新規トピック**および **`### note底稿の続報`** の主出典は **JST で 2026-05-01 または 2026-05-02** にページ記載の公開日・掲載日があるものに限定。**TechCrunch** の米国防総省 AI 契約稿は **9:02 AM PDT · May 1, 2026**。**毎日新聞** の経産省・重要インフラ意見交換稿は **2026/5/1 19:03（最終更新 19:04）**。
+
+### 新規トピック
+
+#### 防衛AI・クラウド
+
+- **米国防総省が Nvidia・Microsoft・AWS・Reflection AI と追加契約し、Google・SpaceX・OpenAI などを含む複数ベンダーの AI を IL6／IL7 の分類ネットワークで「lawful operational use」に使う方針を説明 — Anthropic との安全ガードレール紛争後、ベンダーロックイン回避と複数調達が前面に出る構図** — 出典: [TechCrunch](https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/)（9:02 AM PDT · May 1, 2026）
+
+#### 国内・重要インフラセキュリティ
+
+- **経産省が Anthropic「Claude Mythos」の悪用懸念を受け、電気・ガスなど重要インフラ事業者と意見交換 — 電力24社に1か月をめどに IT 基盤状況の確認・報告を求め、境界型防御だけでなくゼロトラスト設計への移行が必要との説明も報道** — 出典: [毎日新聞](https://mainichi.jp/articles/20260501/k00/00m/020/332000c)（2026/5/1 19:03、最終更新 19:04）
+
+### note底稿の続報
+
+- **Anthropic 不在のまま、米国防総省が classified network 向け AI 調達を Nvidia・Microsoft・AWS・Reflection AI などへ拡大 — 「供給網リスク」指定訴訟後の Pentagon 側の複数ベンダー化として Mythos／国防利用の論点を更新する材料** — **底稿:** `note/202604/20260410/2026-04-10-Mythos｜米財務省・FRBと大行CEO会合報道の読み分け.md` / `note/202604/20260414/2026-04-14-anthropic-mythos-pentagon-clark｜政権協議と調達訴訟の読み分け.md` / `note/202604/20260420/2026-04-20-nsa-anthropic-mythos-pentagon-axios｜NSAとMythos──「指定」と報道のズレをどう読むか.md`。**続報出典:** [TechCrunch](https://techcrunch.com/2026/05/01/pentagon-inks-deals-with-nvidia-microsoft-and-aws-to-deploy-ai-on-classified-networks/)（9:02 AM PDT · May 1, 2026）
+
+- **Claude Mythos が国内の重要インフラ防御の文脈に入り、経産省が電力事業者に IT 基盤確認・報告を求めたと報道 — 米国金融・国防文脈から、日本の重要インフラ運用リスクへ論点が接続** — **底稿:** `note/202604/20260410/2026-04-10-Mythos｜米財務省・FRBと大行CEO会合報道の読み分け.md` / `note/202604/20260414/2026-04-14-anthropic-mythos-pentagon-clark｜政権協議と調達訴訟の読み分け.md` / `note/202604/20260420/2026-04-20-nsa-anthropic-mythos-pentagon-axios｜NSAとMythos──「指定」と報道のズレをどう読むか.md`。**続報出典:** [毎日新聞](https://mainichi.jp/articles/20260501/k00/00m/020/332000c)（2026/5/1 19:03、最終更新 19:04）
+
+### メモ（任意）
+
+- **対象範囲:** 直近 8 週間の `note/**`（`note/Druft/` 除外）。ラジオ台本は本編がある場合は本編を優先。
+- **省略（同一事件・既掲）:** cPanel／WHM（CVE-2026-41940）および Windows Shell／NTLM 窃取系の続報は、直近ログで主出典または同一事件を既掲のため再掲なし。
+- **国内（鮮度外・参考）:** イエローハット／2りんかん不正アクセスは **5/1 報道**がある一方、公式公表は **4/23** 起点のため、本ブロックの新規トピックでは採用せず。
+
+---
+
